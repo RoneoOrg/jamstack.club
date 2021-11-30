@@ -102,6 +102,50 @@
                             {{ partial "author-details.html" . }}
                           </div>
 
+                          <!-- theme details -->
+                          <div class="theme-detail-tags ">
+                            {{ if .Params.ssg }}
+                                {{- range .Params.ssg }}
+                                    {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+                                        {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+
+                            {{ if .Params.cms }}
+                                {{- range .Params.cms }}
+                                    {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+                                        {{ if eq .Page.Title "No CMS" }}
+                                        {{ else }}
+                                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+
+                            {{ if .Params.css }}
+                                {{- range .Params.css }}
+                                    {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+                                        {{ if eq .Page.Title "No css" }}
+                                        {{ else }}
+                                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+
+                            {{ if .Params.archetype }}
+                                {{- range .Params.archetype }}
+                                    {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+                                        {{ if eq .Page.Title "No archetype" }}
+                                        {{ else }}
+                                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        </div>
+
                         </div>
 
                             <div class="intro">
@@ -111,48 +155,7 @@
                                 <div class="intro-description"><p>{{ .Params.description }}</p></div>
                             </div>
 
-                            <div class="theme-detail-tags">
-                                {{ if .Params.ssg }}
-                                    {{- range .Params.ssg }}
-                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-                                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                                        {{ end }}
-                                    {{ end }}
-                                {{ end }}
-
-                                {{ if .Params.cms }}
-                                    {{- range .Params.cms }}
-                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
-                                            {{ if eq .Page.Title "No CMS" }}
-                                            {{ else }}
-                                                {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                                            {{ end }}
-                                        {{ end }}
-                                    {{ end }}
-                                {{ end }}
-
-                                {{ if .Params.css }}
-                                    {{- range .Params.css }}
-                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
-                                            {{ if eq .Page.Title "No css" }}
-                                            {{ else }}
-                                                {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                                            {{ end }}
-                                        {{ end }}
-                                    {{ end }}
-                                {{ end }}
-
-                                {{ if .Params.archetype }}
-                                    {{- range .Params.archetype }}
-                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
-                                            {{ if eq .Page.Title "No archetype" }}
-                                            {{ else }}
-                                                {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                                            {{ end }}
-                                        {{ end }}
-                                    {{ end }}
-                                {{ end }}
-                            </div>
+ 
 
                             {{ partial "labels/label-author.html" (dict "author" .Params.author) }}
                             {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}

@@ -92,3 +92,27 @@
     }
   }
 }
+
+
+// widget
+.widget{
+  padding: 20px;
+  border-radius: .5rem;
+  margin-bottom: 30px;
+  background-color: $white;
+  box-shadow: 0 0.5rem 1rem rgba($color: $black, $alpha: .15) !important;
+  &-icon{
+    display: inline-block;
+    border: 1px solid $border-color;
+    padding: 5px 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    color: $steel;
+    line-height: 1;
+    &:hover{
+      text-decoration: none;
+      border-color: $primary;
+    }
+  }
+}
