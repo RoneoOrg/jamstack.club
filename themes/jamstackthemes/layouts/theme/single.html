@@ -43,21 +43,20 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
 
-
-           <!-- iframe -->
-           <div class="bws-block d-none d-md-block">
-            <div class="bws-header">
-              <div class="bws-actions">
-                {{ with .Params.demo }}
-                <a target="blank" href="{{.| safeURL}}">Full Preview</a>
-                {{ end }}
-              </div>
-            </div>
-            <div class="bws-content">
-              <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
-                src="{{ .Params.demo }}/" title="Andromeda"></iframe>
-            </div>
-          </div>
+                          <!-- iframe -->
+                          <div class="bws-block d-none d-md-block">
+                            <div class="bws-header">
+                              <div class="bws-actions">
+                                {{ with .Params.demo }}
+                                <a target="blank" href="{{.| safeURL}}">Full Preview</a>
+                                {{ end }}
+                              </div>
+                            </div>
+                            <div class="bws-content">
+                              <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
+                                src="{{ .Params.demo }}/" title="Andromeda"></iframe>
+                            </div>
+                          </div>
 
                             <div class="intro">
                                 <div class="intro-heading">
