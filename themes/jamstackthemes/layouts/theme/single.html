@@ -58,6 +58,17 @@
                             </div>
                           </div>
 
+                          <!-- image -->
+                          <div class="theme-detail-image d-block d-md-none mb-4">
+                            {{ if $repo }}
+                                {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+                                {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+                                {{ if (fileExists $staticPath) }}
+                                    <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot"/>
+                                {{ end }}
+                            {{ end }}
+                          </div>
+
                             <div class="intro">
                                 <div class="intro-heading">
                                     <h1 class="intro-title">{{ .Title }} </h1>
