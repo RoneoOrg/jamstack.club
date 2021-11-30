@@ -1,0 +1,94 @@
+// preview iframe
+.bws-block {
+  border-radius: 8px;
+  overflow: hidden !important;
+  @extend .shadow;
+  margin-bottom: 30px;
+
+  .bws-header {
+    background: #ececec;
+    padding: .25rem .5rem;
+    position: relative;
+    border-radius: 8px 8px 0 0;
+
+    &::before {
+      background: #FFBD2D;
+      border-radius: 50%;
+      content: "";
+      display: inline-block;
+      height: 12px;
+      left: 1.5rem;
+      top: 1px;
+      position: relative;
+      width: 12px;
+      box-shadow: -20px 0 0 #ff5f57, 20px 0 0 #29c940;
+    }
+  }
+
+  .bws-actions {
+    float: right;
+    margin-right: 5px;
+
+    a {
+      border: 1px solid #dcdcdc;
+      margin-left: 10px;
+      text-decoration: none;
+      color: $carbon;
+      font-size: 80%;
+      border-radius: 5px;
+      padding: 0 8px;
+      display: inline-block;
+      height: 22px;
+      line-height: 22px;
+      font-size: 80%;
+
+      &:hover {
+        color: $primary;
+        background-color: #dcdcdc;
+      }
+    }
+  }
+
+  .bws-content {
+    height: 600px;
+    overflow: hidden;
+
+    @include desktop-xl {
+      height: 535px;
+    }
+
+    iframe {
+      border: 0;
+      max-width: initial;
+      width: 1285px;
+      height: 1000px;
+      transform: scale(0.6);
+      transform-origin: 0 0;
+      box-shadow: none !important;
+      margin: 0 !important;
+
+      @include desktop-xl {
+        width: 992px;
+        transform: scale(.615);
+      }
+
+      @include desktop-lg {
+        width: 768px;
+        height: 670px;
+        transform: scale(.8);
+      }
+
+      @include desktop {
+        width: 992px;
+        height: 765px;
+        transform: scale(.7);
+      }
+
+      @include tablet {
+        transform: scale(1);
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

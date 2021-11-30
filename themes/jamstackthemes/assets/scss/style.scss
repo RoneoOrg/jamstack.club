@@ -49,6 +49,7 @@ $spacers: map-merge(
 
 @import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
+@import 'mixins';
 @import 'layout';
 @import 'header';
 @import 'footer';
@@ -68,6 +69,7 @@ $spacers: map-merge(
 @import 'content';
 @import 'label';
 @import 'pricing';
+@import 'custom';
 @import 'bootstrap/utilities';
 //@import 'pygments/github';
 
