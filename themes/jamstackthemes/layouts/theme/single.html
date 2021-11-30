@@ -92,7 +92,7 @@
                                 data-name="{{ .Title }}" href="{{with .Params.github }}{{. | safeURL}}{{else}}{{.Params.Product | safeURL}}{{end}}" target="_blank" rel="nofollow noopener">{{if .Params.github}}Github{{else}}Website{{end}}</a>
 
                               <a class="action-button action-button-demo" data-action="demo" data-context="detail" target="_blank"
-                                data-name="{{ .Title }}" href="{{ .Params.demo }}">Live Demo</a>
+                                data-name="{{ .Title }}" href="/demo{{ .RelPermalink }}">Live Demo</a>
                             </div>
                           </div>
 
