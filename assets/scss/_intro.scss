@@ -26,7 +26,7 @@
     vertical-align: middle;
     font-weight: 600;
     font-size: 24px;
-    margin: 0;
+    margin: 20px auto;
     @include media-breakpoint-up(sm) {
       font-size: 28px;
     }
@@ -38,7 +38,6 @@
     }
   }
   .intro-tagline {
-    margin-top: 1.2em;
     margin-bottom: 1.5em;
     p {
       font-size: 22px;
@@ -108,7 +107,9 @@
     font-weight: 400;
   }
   .count-number {
+    font-size: 1.1em;
     font-weight: bold;
+    margin: auto 2px;
   }
   .page-number {
     font-weight: 400;
