@@ -1,5 +1,5 @@
 ---
-title: Geeky Hugo
+title: Geeky
 github: https://github.com/gethugothemes/geeky-hugo
 demo: https://demo.gethugothemes.com/geeky/
 author: Gethugothemes

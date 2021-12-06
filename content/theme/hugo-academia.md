@@ -1,5 +1,5 @@
 ---
-title: Academia Hugo
+title: Academia
 github: https://github.com/themefisher/academia-hugo
 demo: https://demo.gethugothemes.com/academia/
 author: Themefisher

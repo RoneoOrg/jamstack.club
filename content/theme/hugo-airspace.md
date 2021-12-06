@@ -1,5 +1,5 @@
 ---
-title: Airspace Hugo
+title: Airspace
 github: https://github.com/themefisher/airspace-hugo/
 demo: https://demo.gethugothemes.com/airspace/
 author: Themefisher
