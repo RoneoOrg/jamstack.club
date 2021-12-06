@@ -12,7 +12,7 @@ css:
 archetype:
   - Portfolio
 date: 2018-07-15T10:07:51.000Z
-description: Timer Template Hugo Version by themefisher
+description: A landing page template with Blog and Gallery sections
 stale: false
 disabled: false
 disabled_reason: null

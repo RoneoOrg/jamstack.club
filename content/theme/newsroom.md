@@ -8,6 +8,17 @@ ssg:
 cms:
   - No Cms
 date: 2019-08-15T20:25:37.000Z
-description: A simple, minimalistic Hugo theme. View Demo here
+description: A simple and dynamic Hugo theme for blogging.
 stale: false
 ---
+
+## Features
+
+- Blog
+- Animate on Hover
+- Deeplinks
+- Dark Mode
+- Custom 404
+- Supports native lazy loading of images & iframes
+- Syntax highlighting
+- Comments with Disqus

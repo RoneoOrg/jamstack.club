@@ -6,7 +6,7 @@ author: Themefisher
 ssg:
   - Hugo
 cms:
-  - No Cms
+  - Forestry
 css:
   - Bootstrap
 archetype:
