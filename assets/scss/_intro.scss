@@ -1,0 +1,116 @@
+.intro {
+  .intro-heading {
+    margin-bottom: 10px;
+  }
+  .intro-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+    img {
+      display: inline-block;
+      vertical-align: bottom;
+      width: 24px;
+      @include media-breakpoint-up(sm) {
+        width: 28px;
+      }
+      @include media-breakpoint-up(md) {
+        width: 36px;
+      }
+      @include media-breakpoint-up(xl) {
+        width: 46px;
+      }
+    }
+  }
+  .intro-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+    @include media-breakpoint-up(sm) {
+      font-size: 28px;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 36px;
+    }
+    @include media-breakpoint-up(xl) {
+      font-size: 46px;
+    }
+  }
+  .intro-tagline {
+    margin-top: 1.2em;
+    margin-bottom: 1.5em;
+    p {
+      font-size: 22px;
+      margin-top: 0.8em;
+    }
+  }
+  .intro-tagline {
+    @include media-breakpoint-up(md) {
+      font-size: 18px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 22px;
+    }
+  }
+  .intro-selected {
+    margin-top: 2.8em;
+    @include media-breakpoint-up(md) {
+      font-size: 14px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 18px;
+    }
+  }
+  .intro-backlink {
+    display: none;
+    margin-top: 6px;
+    padding: 4px 10px;
+    border: 1px solid $grey;
+    border-radius: 3px;
+    @include media-breakpoint-up(md) {
+      margin-left: auto;
+      display: block;
+    }
+    a {
+      color: $primary;
+      padding: 8px;
+      &:first-of-type {
+        padding-left: 0;
+      }
+    }
+  }
+  .intro-bar {
+    display: flex;
+    align-items: center;
+  }
+  .intro-hint {
+    font-size: 14px;
+    padding: 11px;
+    background: aliceblue;
+    border-radius: 2px;
+    color: #647f96;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p { margin: 0;}
+    .button {
+      color: #647f96;
+      border-color: #647f96;
+      margin: 0;
+    }
+  }
+  h2 {
+    margin-top: 1.2em;
+  }
+  .intro-count {
+    color: #666 !important;
+    font-weight: 400;
+  }
+  .count-number {
+    font-weight: bold;
+  }
+  .page-number {
+    font-weight: 400;
+  }
+}

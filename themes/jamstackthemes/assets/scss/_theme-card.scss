@@ -10,6 +10,9 @@
   z-index: 1;
   height: 100%;
   box-shadow: 0 25px 20px -25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.05);
+  .theme-title {
+    font-weight: 600;
+  }
   .theme-header {
     border-bottom: 1px solid $grey;
     max-height: 260px;
