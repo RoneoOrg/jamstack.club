@@ -10,6 +10,7 @@ cms:
 date: 2017-04-11T01:24:05.000Z
 description: 'Ananke: A theme for Hugo Sites'
 stale: false
+weight: 4
 ---
 
 Ananke, A theme for Hugo, a framework for building websites.

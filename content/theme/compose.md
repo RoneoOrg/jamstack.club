@@ -12,4 +12,5 @@ description: >-
   A hugo theme for documentation sites. It's inspired by
   https://forestry.io/docs/welcome/
 stale: false
+weight: 3
 ---

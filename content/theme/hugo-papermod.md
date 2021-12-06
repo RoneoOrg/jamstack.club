@@ -13,6 +13,7 @@ archetype:
   - Portfolio
 description: A fast, clean and feature-rich Hugo theme for bloggers. 
 stale: false
+weight: 2
 ---
 
 ## Features

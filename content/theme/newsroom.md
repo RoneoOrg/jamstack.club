@@ -10,6 +10,7 @@ cms:
 date: 2019-08-15T20:25:37.000Z
 description: A simple and dynamic Hugo theme for blogging.
 stale: false
+weight: 2
 ---
 
 ## Features

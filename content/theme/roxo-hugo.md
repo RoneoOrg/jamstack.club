@@ -22,6 +22,7 @@ description: >-
   Print & Editorial Design, Concept/Text, Information Design etc. Roxo Hugo’s
   contact form is supported Formspree.
 stale: false
+weight: 3
 ---
 
 # Roxo Hugo for Hugo

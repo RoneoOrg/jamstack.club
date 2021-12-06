@@ -16,6 +16,7 @@ description: Infinity Coming Soon Template Hugo Version by themefisher
 stale: false
 disabled: false
 disabled_reason: null
+weight: 4
 ---
 
 ## Features

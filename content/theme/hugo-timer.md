@@ -16,6 +16,7 @@ description: A landing page template with Blog and Gallery sections
 stale: false
 disabled: false
 disabled_reason: null
+weight: 2
 ---
 
 ## Features

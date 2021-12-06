@@ -16,6 +16,7 @@ description: >-
   Create amazing projec documentation with Ace, featuring code highlighting,
   full search, Bootstrap components, and more.
 stale: false
+weight: 5
 ---
 
 # Ace documentation theme for Hugo
