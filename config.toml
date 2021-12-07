@@ -43,10 +43,7 @@ pygmentsUseClasses = true
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]
 
 # Main Menu
-[[menu.main]]
-	name = "Jamstack?"
-	url = "https://jamstack.wtf"
-    weight = 1
+
 
 [[menu.main]]
 	name = "About"
@@ -57,3 +54,8 @@ pygmentsUseClasses = true
 	name = "Contact"
 	url = "/contact"
     weight = 2
+
+[[menu.main]]
+	name = "Jamstack?"
+	url = "https://jamstack.wtf"
+    weight = 3
