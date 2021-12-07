@@ -16,6 +16,7 @@ description: Navigator Template Hugo Version by themefisher
 stale: false
 disabled: false
 disabled_reason: null
+weight: 2
 ---
 
 ## Features

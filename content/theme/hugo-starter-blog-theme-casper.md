@@ -12,6 +12,7 @@ archetype:
   - Blog
 description: A Hugo boilerplate for creating a blog site backed with NetlifyCMS.
 stale: false
+weight: 5
 ---
 
 A Hugo boilerplate for creating a blog site backed with [NetlifyCMS](https://www.netlifycms.org) for content authoring.

@@ -16,6 +16,7 @@ archetype:
   - Personal
 description: Modern portfolio theme for your Hugo site
 stale: false
+weight: 5
 ---
 
 # ShowFolio is a modern portfolio theme for your Hugo site.

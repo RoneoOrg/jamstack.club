@@ -13,4 +13,5 @@ archetype:
   - Portfolio
 description: A fast, clean, responsive Hugo theme based on Paper
 stale: false
+weight: 2
 ---
