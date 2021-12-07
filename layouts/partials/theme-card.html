@@ -59,9 +59,9 @@
 
             <div class="theme-description">
                 {{ if .theme.Params.description }}
-                    <p class="description">{{ .theme.Params.description | truncate 70 }}</p>
+                    <p class="description">{{ .theme.Params.description | truncate 90 }}</p>
                 {{ else }}
-                    <p class="description">{{ .theme.Summary | truncate 70 }}</p>
+                    <p class="description">{{ .theme.Summary | truncate 90 }}</p>
                 {{ end }}
             </div>
 
