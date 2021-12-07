@@ -116,3 +116,28 @@
     }
   }
 }
+
+// about page
+
+.about h2 {
+  font-weight: 600;
+  font-size: 24px;
+  @include media-breakpoint-up(sm) {
+    font-size: 26px;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 34px;
+  }
+  @include media-breakpoint-up(xl) {
+    font-size: 44px;
+  }
+}
+
+.about p {
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 20px;
+  }
+}
