@@ -117,9 +117,9 @@
   }
 }
 
-// about page
+// Single page
 
-.about h2 {
+.page-single h2 {
   font-weight: 600;
   font-size: 24px;
   @include media-breakpoint-up(sm) {
@@ -133,7 +133,7 @@
   }
 }
 
-.about p {
+.page-single p {
   @include media-breakpoint-up(md) {
     font-size: 16px;
   }
