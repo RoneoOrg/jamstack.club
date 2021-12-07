@@ -44,12 +44,16 @@ pygmentsUseClasses = true
 
 # Main Menu
 [[menu.main]]
-	name = "Featured Themes"
-	url = "/"
+	name = "Jamstack?"
+	url = "https://jamstack.wtf"
     weight = 1
 
 [[menu.main]]
 	name = "About"
 	url = "/about"
     weight = 2
+
+[[menu.main]]
+	name = "Contact"
+	url = "/contact"
     weight = 2
