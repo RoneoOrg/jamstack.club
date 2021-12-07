@@ -1,4 +1,4 @@
-{{ define "title" }}{{ .Title }} - Theme Info{{ end }}
+{{ define "title" }}{{ .Title }} - Theme Info - Jamstack.club{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-default-single{{ end }}
 
@@ -17,8 +17,8 @@
         {{ end }}
     {{ end }}
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:site" content="@jamstackthemes"/>
-    <meta name="twitter:creator" content="@jamstackthemes"/>
+    <meta name="twitter:site" content="@jamstackclub"/>
+    <meta name="twitter:creator" content="@jamstackclub"/>
 {{end}}
 
 {{ define "meta_description" }}
@@ -48,7 +48,7 @@
                             <div class="bws-header">
                               <div class="bws-actions">
                                 {{ with .Params.demo }}
-                                <a target="blank" href="{{.| safeURL}}">Full Preview</a>
+                                <a target="blank" href="{{.| safeURL}}">Full screen</a>
                                 {{ end }}
                               </div>
                             </div>
