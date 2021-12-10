@@ -74,8 +74,6 @@
                             {{ .Content }}
                           </div>
 
-                          <!-- newsletter -->
-                          {{- partial "newsletter.html" . -}}
 
                         </div>
 
@@ -151,8 +149,10 @@
                             {{ end }}
                         </div><!--/ sidebar -->
                     </div>
-                    </div>
+                  </div>
                 </div>
+                <!-- newsletter -->
+                {{- partial "newsletter.html" . -}}
             </div>
         </div>
     </div>
