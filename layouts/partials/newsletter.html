@@ -7,6 +7,15 @@
 
   <form name="newsletter"  method="POST"   data-netlify="true" netlify-honeypot="bot-field">
     <input
+    class="form-control valid"
+    name="name"
+    id="name"
+    type="text"
+    onfocus="this.placeholder = ''"
+    onblur="this.placeholder = 'Enter your Name'"
+    placeholder="Enter your Name"
+  />
+    <input
       class="form-control valid"
       name="email"
       id="email"
