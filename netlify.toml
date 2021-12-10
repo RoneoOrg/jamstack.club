@@ -1,10 +1,9 @@
 [build]
   functions = "functions"
   publish = "public"
-  command = "npm install && npm run deploy"
 
 [functions]
-    node_bundler = "esbuild"
+  node_bundler = "esbuild"
 
 [build.environment]
   HUGO_VERSION = "0.71.1"
