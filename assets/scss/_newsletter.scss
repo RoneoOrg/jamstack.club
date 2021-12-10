@@ -1,0 +1,29 @@
+
+.newsletter {
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+  input {
+    border-radius: .25rem;
+    border-color: rgba($color: $steel, $alpha: .15);
+    padding: .75rem 1rem;
+    margin: 5px;
+
+      &[type="email"] {
+        flex: 3 1 30ch;
+      }
+    }
+
+  .button {
+      flex: 1 1 15ch;
+      color: white;
+      padding: .75rem 1rem;
+      margin: 5px;
+      background: $primary;
+      box-shadow: 0 0.5rem 1rem rgba($color: $primary, $alpha: .15) !important;
+    }
+
+
+}
