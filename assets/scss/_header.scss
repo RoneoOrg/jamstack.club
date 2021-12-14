@@ -22,14 +22,27 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .logo-title {
+    font-size: 1.4rem;
+    padding-left: 6px;
+  }
+
+
   .submit {
     display: flex;
     align-items: center;
+
+    a {
+      color: #5179fd;
+      padding-right: 10px;
+    }
+
     .submit-button {
       padding: 10px;
       border-radius: 3px;
       text-decoration: none;
-      color: #000;
+      color: $primary;
       &:hover {
         color: $primary;
       }
@@ -46,17 +59,16 @@
         display: block;
       }
     }
-    svg {
+    img {
+      opacity: 0.7;
       width: 20px;
       height: 20px;
       @include media-breakpoint-up(sm) {
         width: 24px;
         height: 24px;
       }
-    }
-    .github {
       &:hover {
-        opacity: 0.7;
+        opacity: 0.5;
       }
     }
   }
@@ -110,5 +122,9 @@
     &:hover {
       color: $primary;
     }
+  }
+  img {
+    position: relative;
+    top: -4px;
   }
 }

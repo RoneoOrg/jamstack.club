@@ -1,11 +1,13 @@
 <div class="container">
   <div class="logo">
-    <a href="/" title="Jamstack Themes">Jamstack.club </a>
+    <a href="/" title="Homepage of the Jamstack club">
+      <img class="logo-img" width="26" height="26" alt="Logo" src="{{ "images/logo/jamstack-club-logo.svg" | relURL }}"/>
+      <span class="logo-title"> Jamstack.club</span>
+    </a>
   </div>
   {{ partial "main-menu.html" . }}
   <div class="submit">
-    <a class="submit-button submit-button-mobile" href="https://github.com/RoneoOrg/jamstack.club" rel="nofollow">Submit</a>
-    Come in,&nbsp;<a class="contribute" href="https://github.com/RoneoOrg/jamstack.club" rel="nofollow">we're open!</a>
+    <span class="contribute d-none d-lg-block">Come in,&nbsp;<a href="https://github.com/RoneoOrg/jamstack.club" rel="nofollow">we're open!</a></span>
     <a class="github" href="https://github.com/RoneoOrg/jamstack.club" rel="nofollow"><img width="26" height="26" alt="Github Repo" src="{{ "images/icons/github.svg" | relURL }}"/></a>
     <a class="twitter" href="https://twitter.com/jamstackclub" rel="nofollow"><img width="26" height="26" alt="Twitter Account" src="{{ "images/social/twitter.svg" | relURL }}"/></a>
   </div>
