@@ -9,9 +9,11 @@
 
 [context.deploy-preview]
   command = "npm install && npm run deploy"
+  environment = { BUTTONDOWN_API_KEY = "disabled-on-branch-deploy" }
 
 [context.branch-deploy]
   command = "npm install && npm run deploy:branch"
+  environment = { BUTTONDOWN_API_KEY = "disabled-on-branch-deploy" }
 
 [[headers]]
   for = "/index.json"
