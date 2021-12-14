@@ -49,6 +49,12 @@ This theme is a lightweight starter kit. It also gives you a well organised star
 * Any open source themes with a public github repo can be submitted.
 * Please make sure the demo URL links to a demo of the theme and not your personal or business site.
 
+## Newsletter
+
+A newsletter subscribtion form is available on each theme pages.
+
+The service is run by [Buttondown.email](https://buttondown.email) and requires Netlify hosting to leverage the [Serverless functions](https://docs.netlify.com/functions/overview/).
+
 
 ## Develop Locally
 
