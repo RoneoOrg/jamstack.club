@@ -7,6 +7,7 @@
   </div>
 
   <form name="newsletter"  method="POST"   data-netlify="true" netlify-honeypot="bot-field">
+
     <input
     class="form-control valid"
     name="name"
@@ -24,6 +25,12 @@
       onfocus="this.placeholder = ''"
       onblur="this.placeholder = 'Enter your Email'"
       placeholder="Enter your Email"
+    />
+
+    <input
+      class="hidden"
+      name="bot-field"
+      placeholder="This is a spam detector, don't fill this out if you're a human."
     />
 
     <button type="submit" class="button">
