@@ -29,6 +29,10 @@
       &[type="email"] {
         flex: 3 1 30ch;
       }
+
+      &[type="text"] {
+        display: none;
+      }
     }
 
   .button {
