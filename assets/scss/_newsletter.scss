@@ -1,5 +1,20 @@
 
 .newsletter {
+
+  margin-top: 2em;
+
+  h2 {
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.4em;
+  }
+
+  .newsletter-tagline {
+    font-weight: bold;
+  }
+
   form {
     display: flex;
     flex-wrap: wrap;
