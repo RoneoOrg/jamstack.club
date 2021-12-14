@@ -2,17 +2,16 @@
 .newsletter {
 
   margin-top: 2em;
-
-  h2 {
-    font-weight: bold;
-  }
-
-  p {
-    font-size: 1.4em;
-  }
-
+  padding-top: 1.4em;
+  
   .newsletter-tagline {
+    font-size: 1.2rem;
     font-weight: bold;
+  }
+
+  .newsletter-small {
+    color: $steel;
+    font-size: 1.1rem;
   }
 
   form {
@@ -21,13 +20,14 @@
     }
 
   input {
+    font-size: 1.2rem;
     border-radius: .25rem;
     border-color: rgba($color: $steel, $alpha: .15);
-    padding: .75rem 1rem;
+    padding: .75rem 0 .75rem 1rem;
     margin: 5px;
 
       &[type="email"] {
-        flex: 3 1 30ch;
+        flex: 3 1 0;
       }
 
       &[type="text"] {
@@ -36,6 +36,7 @@
     }
 
   .button {
+      font-size: 1.2rem;
       flex: 1 1 15ch;
       color: white;
       padding: .75rem 1rem;
