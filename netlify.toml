@@ -1,15 +1,17 @@
 [build]
   publish = "public"
-  command = "npm run deploy"
+
+[functions]
+  node_bundler = "esbuild"
 
 [build.environment]
   HUGO_VERSION = "0.71.1"
 
 [context.deploy-preview]
-  command = "npm run deploy"
+  command = "npm install && npm run deploy"
 
 [context.branch-deploy]
-  command = "npm run deploy:branch"
+  command = "npm install && npm run deploy:branch"
 
 [[headers]]
   for = "/index.json"
