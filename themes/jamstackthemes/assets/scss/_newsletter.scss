@@ -1,0 +1,49 @@
+
+.newsletter {
+
+  margin-top: 2em;
+  padding-top: 1.4em;
+  
+  .newsletter-tagline {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .newsletter-small {
+    color: $steel;
+    font-size: 1.1rem;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+  input {
+    font-size: 1.2rem;
+    border-radius: .25rem;
+    border-color: rgba($color: $steel, $alpha: .15);
+    padding: .75rem 0 .75rem 1rem;
+    margin: 5px;
+
+      &[type="email"] {
+        flex: 3 1 0;
+      }
+
+      &[type="text"] {
+        flex: 1 1 10ch;
+      }
+    }
+
+  .button {
+      font-size: 1.2rem;
+      flex: 1 1 15ch;
+      color: white;
+      padding: .75rem 1rem;
+      margin: 5px;
+      background: $primary;
+      box-shadow: 0 0.5rem 1rem rgba($color: $primary, $alpha: .15) !important;
+    }
+
+
+}
