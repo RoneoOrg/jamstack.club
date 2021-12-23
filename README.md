@@ -1,12 +1,34 @@
-# Jamstack Themes
+# Jamstack.club?
 
-A list of themes and starters for the Jamstack and static site generators. https://jamstackthemes.dev
+[Jamstack.club](https://jamstack.club) is a collection of free Jamstack Themes for Hugo, Eleventy, Jekyll, Gatsby and [many other static-sites generators](https://jamstack.club/ssg).  
+Filter, sort, preview, and find the best Jamstack Theme for your next project!
 
-## Submit A Theme
+Now live at https://jamstack.club !
 
-Anyone can submit an open-source theme by adding a markdown file to the `content/theme` folder. 
 
-1. Fork this repo and create a new markdown `.md` file in `content/theme` folder. For example `hugo-air.md`. Another option is to add a new file using the [Github UI](https://github.com/stackbit/jamstackthemes/tree/master/content/theme) _(click the "add file" button)_ 
+## Contribute
+
+Willing to help? Welcome aboard!
+
+**There are many ways you can contribute**, please read on.
+
+**We value each contribution** and, if you like to, we can acknowledge you using the [@allcontributors](https://github.com/all-contributors/all-contributors#readme) principles.
+
+### Report a problem
+
+Found an issue? You can [submit a bug report](https://github.com/RoneoOrg/jamstack.club/issues), or [drop us an email](https://jamstack.club/contact/).
+
+We'll get back to you as soon as possible.
+### Submit a new theme
+
+A theme must meet only two requirements to be submitted:
+
+* The source code must be open-source and public
+* The demo URL links must point to a demo of the theme and not your personal or business site.
+
+Allright? Let's go!
+
+1. Fork this repo and create a new markdown `.md` file in `content/theme` folder. For example `hugo-air.md`. 
 2. Add the required front-matter as shown in the **Example Theme** below.
 3. Submit a pull request
 
@@ -44,10 +66,14 @@ This theme is a lightweight starter kit. It also gives you a well organised star
 * Progressively enhanced, semantic and accessible  
 ```
 
-## Contribution Guidelines
+## How does it work?
 
-* Any open source themes with a public github repo can be submitted.
-* Please make sure the demo URL links to a demo of the theme and not your personal or business site.
+Each theme is described in a Markdown file. (See [this example](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).
+
+The website is then automatically build with [Hugo](https://gohugo.io) and [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) automates the creation of the Github stats and generate a screenshot.  
+A [dedicated page](https://jamstack.club/theme/hugo-restaurant/) is created for each theme, along with [a Demo page](https://jamstack.club/demo/theme/hugo-restaurant/), embedding the URL filled out in the Markdown file.
+
+The index is updated, still automatically, and the website is published, hosted by [Netlify](https://www.netlify.com/), at [Jamstack.club](https://jamstack.club).
 
 
 ## Develop Locally
@@ -94,3 +120,7 @@ official_url: https://super-duper.org
 
 2. Add the icon. You will need to upload an icon into `static/images/icons`. The icon should in SVG format under 3KB. If it's a PNG please make sure the size is 60x60px and the size is as small as possible (you should be able to keep it under 5KB)
 3. Update the Javascript filter logic. Update the file `themes/jamstackthemes/assets/js/filter/filter-groups.js` and add `super-duper` to the ssg array.
+
+## Acknowledgements
+
+See the [About page](https://jamstack.club/about/) for updated acknowledgements and shout-outs!
