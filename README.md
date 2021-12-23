@@ -3,9 +3,6 @@
 [Jamstack.club](https://jamstack.club) is a collection of free Jamstack Themes for Hugo, Eleventy, Jekyll, Gatsby and [many other static-sites generators](https://jamstack.club/ssg).  
 Filter, sort, preview, and find the best Jamstack Theme for your next project!
 
-Now live at https://jamstack.club !
-
-
 ## Contribute
 
 Willing to help? Welcome aboard!
