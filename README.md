@@ -28,43 +28,9 @@ A theme must meet only two requirements to be submitted:
 
 Allright? Let's go!
 
-1. Fork this repo and create a new markdown `.md` file in `content/theme` folder. For example `hugo-air.md`. 
-2. Add the required front-matter as shown in the **Example Theme** below.
-3. Submit a pull request
-
-> **Tip:** Do not generate the Github stars or theme screenshots. Please just submit the markdown file in your pull request.
-
-**Example Theme**
-```yaml
----
-title: "My Theme Name"
-github: https://github.com/username/repo
-demo: https://www.demo.com # Please make sure this links to a theme demo and not your personal/business site. The demo url must use https
-author: authorname
-date: 2019-08-20 # Enter the date you submitted the theme YYYY-MM-DD
-ssg:
-  - Gridsome # at least 1 ssg is required
-cms:
-  - No CMS # at least 1 cms is required. If your theme uses markdown (no CMS) the cms should be "No CMS"
-css: # css is optional
-  - Bootstrap 
-archetype: # archetype is optional
-  - Blog
-  - Portfolio
-description: This is an amazing theme and this is a small description about it!
----
-
-# A simple starter kit for Gridsome
-
-This theme is a lightweight starter kit. It also gives you a well organised starting point to extend it for yourself.
-
-## Features
-
-* Customisable design tokens to make it your own  
-* Customisable global data and navigation  
-* Tags and tag archives  
-* Progressively enhanced, semantic and accessible  
-```
+1. Fork this repo and follow the comments in [this template file](https://github.com/RoneoOrg/jamstack.club/blob/main/content/theme/theme-contribution-template.md). 
+2. Submit a Pull request.
+3. You're done! Yes, the Screenshot and Demo page, the last update and the Github Stars.. everything is generated automatically!
 
 ## How does it work?
 
