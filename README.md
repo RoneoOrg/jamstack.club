@@ -28,9 +28,11 @@ A theme must meet only two requirements to be submitted:
 
 Allright? Let's go!
 
-1. Fork this repo and follow the comments in [this template file](https://github.com/RoneoOrg/jamstack.club/blob/main/content/theme/theme-contribution-template.md). 
-2. Submit a Pull request.
-3. You're done! Yes, the Screenshot and Demo page, the last update and the Github Stars.. everything is generated automatically!
+1. Open [this template file](https://github.com/RoneoOrg/jamstack.club/edit/main/content/theme/theme-contribution-template.md) and confirm the creation of a Fork.  
+(See [the Github documentation](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository) for details, and reach out if you're stuck somewhere!)
+2. Edit the file and click on "Propose changes" at the bottom.
+3. Submit the Pull Request.
+4. You're done! Yes, the Screenshot and the Demo page, the Github Stars.. everything is generated automatically!
 
 ## How does it work?
 
