@@ -1,10 +1,20 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Jamstack Themes"
 theme = "jamstackthemes"
 paginate = 18
 summaryLength = 10
 # enableGitInfo = false
+
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    title = 'Jamstack Themes'
+    weight = 1
+  [languages.fr]
+    title = 'Thèmes Jamstack'
+    weight = 2
+
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
