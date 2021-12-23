@@ -41,7 +41,6 @@ cms:
   - Prismic
   - Sanity
   - Storyblok
-  # - Tradly - disabled: has no dedicated icon
   - Wordpress
 
 css: # Naming the CSS framework is optional but welcome. Delete all lines if required.
@@ -63,6 +62,7 @@ archetype: # Describe the archetype (the appearance) of the theme. Optional but 
   - Resume
 
 description: This is an amazing theme and this is a small description about it! # Describe the theme in a sentence
+
 ---
 
 # Here is the main title: be imaginative (or just descriptive!)
@@ -88,4 +88,4 @@ Velit aliquip quis eu id consequat laborum magna et sint anim dolore magna labor
 
 Key takeaways: this theme is recommended for ..
 
-# Please delete the comments when you're done, then submit a pull request and voilà!
+# Please delete the comments when you're done, then click on "Propose changes" right below and voilà!
