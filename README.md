@@ -10,8 +10,7 @@ Now live at https://jamstack.club !
 
 Willing to help? Welcome aboard!
 
-**There are many ways you can contribute**, please read on.
-
+**There are many ways you can contribute**, please read on!  
 **We value each contribution** and, if you like to, we can acknowledge you using the [@allcontributors](https://github.com/all-contributors/all-contributors#readme) principles.
 
 ### Report a problem
@@ -24,7 +23,7 @@ We'll get back to you as soon as possible.
 A theme must meet only two requirements to be submitted:
 
 * The source code must be open-source and public
-* The demo URL links must point to a demo of the theme and not your personal or business site.
+* The demo URL links must point to a demo of the theme and not a personal/business site.
 
 Allright? Let's go!
 
@@ -32,16 +31,18 @@ Allright? Let's go!
 (See [the Github documentation](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository) for details, and reach out if you're stuck somewhere!)
 2. Edit the file and click on "Propose changes" at the bottom.
 3. Submit the Pull Request.
-4. You're done! Yes, the Screenshot and the Demo page, the Github Stars.. everything is generated automatically!
+4. You're done!  
+Yes, the Screenshot and the Demo page, the Github Stars.. everything is generated automatically!
 
 ## How does it work?
 
 Each theme is described in a Markdown file. (See [this example](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).
 
-The website is then automatically build with [Hugo](https://gohugo.io) and [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) automates the creation of the Github stats and generate a screenshot.  
-A [dedicated page](https://jamstack.club/theme/hugo-restaurant/) is created for each theme, along with [a Demo page](https://jamstack.club/demo/theme/hugo-restaurant/), embedding the URL filled out in the Markdown file.
+The website is built with [Hugo](https://gohugo.io) and [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) automate the creation of the Github stats and generate a screenshot.
 
-The index is updated, still automatically, and the website is published, hosted by [Netlify](https://www.netlify.com/), at [Jamstack.club](https://jamstack.club).
+A [dedicated page](https://jamstack.club/theme/hugo-restaurant/) is created for each theme, along with [a Demo page](https://jamstack.club/demo/theme/hugo-restaurant/), embedding the Demo URL filled out in the Markdown file.
+
+The index is updated, still automatically, and the website is published, hosted by [Netlify](https://www.netlify.com/), landing at [Jamstack.club](https://jamstack.club).
 
 
 ## Develop Locally
