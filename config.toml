@@ -9,10 +9,12 @@ defaultContentLanguage = 'en'
 
 [languages]
   [languages.en]
-    title = 'Jamstack Themes'
+    LanguageName = 'English'
+    title = 'Jamstack Themes in English'
     weight = 1
   [languages.fr]
-    title = 'Thèmes Jamstack'
+    LanguageName = 'Français'
+    title = 'Thèmes Jamstack en français'
     weight = 2
 
 
