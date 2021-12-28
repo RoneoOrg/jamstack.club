@@ -1,6 +1,6 @@
 <div class="container">
   <div class="logo">
-    <a href="/" title="{{ .Site.Params.title }}">{{ .Site.Params.title }} </a>
+    <a href="{{ "/" | absLangURL }}" title="{{ .Site.Params.title }}">{{ .Site.Params.title }} </a>
   </div>
   {{ partial "main-menu.html" . }}
   <div class="submit">
