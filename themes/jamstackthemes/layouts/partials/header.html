@@ -2,7 +2,9 @@
   <div class="logo">
     <a href="{{ "/" | absLangURL }}" title="{{ .Site.Params.title }}">{{ .Site.Params.title }} </a>
   </div>
+  {{ partial "language-switcher.html" . }}
   {{ partial "main-menu.html" . }}
+
   <div class="submit">
     <a class="submit-button submit-button-mobile" href="https://github.com/stackbit/jamstackthemes" rel="nofollow">Submit</a>
     <a class="submit-button submit-button-desktop" href="https://github.com/stackbit/jamstackthemes" rel="nofollow">Submit Theme</a>

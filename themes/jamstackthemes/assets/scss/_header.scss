@@ -62,7 +62,7 @@
   }
   .main-menu {
     display: none;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       display: block;
     }
     > ul {
@@ -93,6 +93,33 @@
       }
     }
   }
+
+  .language-switcher {
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+    > ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      > li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        > a {
+          text-decoration: none;
+          color: $primary;
+          padding: 5px 8px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 .logo {
