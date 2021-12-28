@@ -14,6 +14,7 @@ defaultContentLanguage = 'en'
     weight = 1
   [languages.fr]
     LanguageName = 'Français'
+    languageCode = "fr"
     title = 'Thèmes Jamstack en français'
     weight = 2
 
