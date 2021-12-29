@@ -9,8 +9,7 @@ ssg:
 css:
   - Bootstrap
 description: A simple, bootstrap 4 based hugo blog theme.
-stale: false
-weight: 3
+stale: true
 ---
 
 # Features

@@ -6,7 +6,7 @@ public
 .DS_Store
 
 # Jetbrains
-.idea/
+.idea
 
 # Logs
 logs
@@ -76,6 +76,3 @@ content/test
 
 # Visual Studio Code project settings
 .vscode
-# Local Netlify folder
-.netlify
-.hugo_build.lock
