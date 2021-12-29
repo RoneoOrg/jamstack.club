@@ -6,12 +6,14 @@ author: Themefisher
 ssg:
   - Hugo
 cms:
-  - No Cms
+  - Forestry
 css:
   - Bootstrap
 archetype:
   - Business
   - Blog
+features:
+  - Deploy to Netlify
 date: 2019-03-17T09:52:58.000Z
 stale: false
 disabled: false
