@@ -3,6 +3,8 @@
 [Jamstack.club](https://jamstack.club) is a collection of free Jamstack Themes for Hugo, Eleventy, Jekyll, Gatsby and [many other static-sites generators](https://jamstack.club/ssg).  
 Filter, sort, preview, and find the best Jamstack Theme for your next project!
 
+[![Screenshot of the homepage of jamstack club](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/static/images/cards/overview-second-md.jpg)](https://jamstack.club)
+
 ## Contribute
 
 Willing to help? Welcome aboard!
