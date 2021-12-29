@@ -12,7 +12,9 @@ author_link: https://sullivan.com # The personal site of the author, or a Github
 
 date: 2021-12-20 # Enter the date you submitted the theme in the format YYYY-MM-DD.
 
-stale: true # Please delete this line to get this file considered during the next build.
+stale: true
+disabled: true # Please delete this line to get this file considered during the next build.
+disabled_reason: template file # Delete also this line
 
 ssg:
   - Eleventy # at least one SSG is required. Delete the inappropriate lines.
