@@ -1,5 +1,4 @@
 [build]
-  functions = "functions"
   publish = "public"
 
 [functions]
