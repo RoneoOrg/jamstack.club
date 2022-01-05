@@ -10,38 +10,40 @@ Filter, sort, preview, and find the best Jamstack Theme for your next project!
 Willing to help? Welcome aboard!
 
 **There are many ways you can contribute**, please read on!  
-**We value each contribution** and, if you like to, we can acknowledge you using the [@allcontributors](https://github.com/all-contributors/all-contributors#readme) principles.
+**We value each contribution** and, if you wish, we can acknowledge you using the [@allcontributors](https://github.com/all-contributors/all-contributors#readme) principles.
 
 ### Report a problem
 
 Found an issue? You can [submit a bug report](https://github.com/RoneoOrg/jamstack.club/issues), or [drop us an email](https://jamstack.club/contact/).
 
 We'll get back to you as soon as possible.
+
 ### Submit a new theme
 
-A theme must meet only two requirements to be submitted:
+There are only two requirements for submitting a theme:
 
 * The source code must be open-source and public
 * The demo URL links must point to a demo of the theme and not a personal/business site.
 
-Allright? Let's go!
+Ready? Let's go!
 
-1. Open [this template file](https://github.com/RoneoOrg/jamstack.club/edit/main/content/theme/theme-contribution-template.md) and confirm the creation of a Fork.  
+1. Open [this template file](https://github.com/RoneoOrg/jamstack.club/edit/main/content/theme/theme-contribution-template.md) and confirm the creation of a fork.  
 (See [the Github documentation](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository) for details, and reach out if you're stuck somewhere!)
 2. Edit the file and click on "Propose changes" at the bottom.
 3. Submit the Pull Request.
-4. You're done!  
-Yes, the Screenshot and the Demo page, the Github Stars.. everything is generated automatically!
+4. You're done!
+
+Yes, the screenshot and the demo page; the Github stars — everything is generated automatically!
 
 ## How does it work?
 
-Each theme is described in a Markdown file. (See [this example](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).
+Each theme is described in a Markdown file. (See [this example if a theme specification](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).
 
-The website is built with [Hugo](https://gohugo.io) and [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) automate the creation of the Github stats and generate a screenshot.
+The website is built with [Hugo](https://gohugo.io) along with [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) to automate the creation of the Github stats and generate a screenshot.
 
-A [dedicated page](https://jamstack.club/theme/hugo-restaurant/) is created for each theme, along with [a Demo page](https://jamstack.club/demo/theme/hugo-restaurant/), embedding the Demo URL filled out in the Markdown file.
+A [dedicated page](https://jamstack.club/theme/hugo-restaurant/) is created for each theme, as well as [a theme demo website](https://jamstack.club/demo/theme/hugo-restaurant/), at the 'Demo' URL filled out in the Markdown file.
 
-The index is updated, still automatically, and the website is published, hosted by [Netlify](https://www.netlify.com/), landing at [Jamstack.club](https://jamstack.club).
+The index is updated, still automatically, and the website is published. It is hosted by [Netlify](https://www.netlify.com/) with a landing at [Jamstack.club](https://jamstack.club).
 
 
 ## Develop Locally
