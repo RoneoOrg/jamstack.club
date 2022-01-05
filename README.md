@@ -37,7 +37,7 @@ Yes, the screenshot and the demo page; the Github stars — everything is genera
 
 ## How does it work?
 
-Each theme is described in a Markdown file. (See [this example if a theme specification](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).
+Each theme is described in a Markdown file. (See [this example of a theme specification](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).
 
 The website is built with [Hugo](https://gohugo.io) along with [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) to automate the creation of the Github stats and generate a screenshot.
 
