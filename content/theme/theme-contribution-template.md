@@ -75,5 +75,3 @@ Dolor minim excepteur ullamco incididunt officia. Occaecat labore do esse id off
 Velit aliquip quis eu id consequat laborum magna et sint anim dolore magna labore. Incididunt excepteur occaecat amet proident id nostrud amet nisi eu deserunt excepteur excepteur enim. Aute aliqua sint anim irure deserunt sint dolore reprehenderit.
 
 Key takeaways: this theme is recommended for ..
-
-# Please delete the comments when you're done, then click on "Propose changes" right below and voilà!
