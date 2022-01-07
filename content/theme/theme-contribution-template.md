@@ -1,19 +1,12 @@
 ---
-# To submit a new theme, edit this file and delete inappropriate suggestions.
-# Note that the screenshot and the Github Stars are automatically generated.
-
 title: Your Theme Name # Enter the theme name here. No need to mention the SSG at this point.
 github: https://github.com/RoneoOrg/markdown # This repo URL will be used to generate Github stats (Stars, Forks, Last Update)
 demo: https://roneo.org/markdown # Make sure this links to a dedicated demo, and not a personal/business site. The demo url must use httpS.
-
 author: Sullivan # The name or nickname of the theme's author.
 author_link: https://sullivan.com # The personal site of the author, or a Github/Gitlab/Twitter link, for a proper acknowledgement. Delete this line if none is available.
-
 date: 2021-12-20T21:25:23.000Z # Enter the date you submitted the theme in the format YYYY-MM-DD.
-
 disabled: true # Please delete this line to get this file considered during the next build.
 stale: true # Delete this line too
-
 ssg:
   - Eleventy # at least one SSG is required. Delete the inappropriate lines.
   - Gatsby
@@ -26,7 +19,6 @@ ssg:
   - Statiq
   - Unibit
   - Vuepress
-
 cms:
   - No CMS # at least one cms is required. If your theme uses no CMS, please leave a line with "No CMS"
   - Contentful
@@ -42,15 +34,13 @@ cms:
   - Sanity
   - Storyblok
   - Wordpress
-
 css: # Naming the CSS framework is optional but welcome. Delete all lines if required.
-  - Bootstrap 
+  - Bootstrap
   - Bulma
   - PostCSS
   - SCSS
   - Tailwind
   - Stylus
-
 archetype: # Describe the archetype (the appearance) of the theme. Optional but warmly recommended. Delete the inappropriate lines.
   - Blog
   - Documentation
@@ -60,9 +50,7 @@ archetype: # Describe the archetype (the appearance) of the theme. Optional but 
   - Multi Purpose
   - Portfolio
   - Resume
-
 description: This is an amazing theme and this is a small description about it! # Describe the theme in a sentence
-
 ---
 
 # Here is the main title: be imaginative (or just descriptive!)
