@@ -6,6 +6,7 @@ author: Sullivan # The name or nickname of the theme's author.
 author_link: https://sullivan.com # The personal site of the author, or a Github/Gitlab/Twitter link, for a proper acknowledgement. Delete this line if none is available.
 date: 2021-12-20T21:25:23.000Z # Enter the date you submitted the theme in the format YYYY-MM-DD.
 disabled: true # Please delete this line to get this file considered during the next build.
+disabled_reason: error checking demo url
 stale: true # Delete this line too
 ssg:
   - Eleventy # at least one SSG is required. Delete the inappropriate lines.
