@@ -12,11 +12,11 @@ css: null
 archetype:
   - Single page
   - Portfolio
-description: A Single Page Theme to build pretty, quick and simple websites with Hugo.
+description: A Single Page theme to build fast, pretty and simple websites with Hugo.
 stale: false
 ---
 
-# Quickly build a Single Page website with Hugo
+## Quickly build a Single Page website with Hugo
 
 Easy customizations with the [custom CSS headers](https://github.com/janraasch/hugo-scroll/blob/master/exampleSite/layouts/partials/custom_head.html).
 
