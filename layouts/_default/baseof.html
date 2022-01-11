@@ -19,6 +19,9 @@
     <meta name="twitter:creator" content="@jamstackclub" />
     <meta name="twitter:image" content="{{ .Site.BaseURL }}images/cards/overview.jpg" />
     <meta name="twitter:image:alt" content="Screenshot of {{ .Site.Title }}" />
+
+    <!-- Do not provide automatic translations -->
+    <meta name="googlebot" content="notranslate" />
   {{end}}
 
   {{ block "meta_description" . }}
