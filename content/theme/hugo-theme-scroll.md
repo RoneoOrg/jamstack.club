@@ -14,6 +14,7 @@ archetype:
   - Portfolio
 description: A Single Page theme to build fast, pretty and simple websites with Hugo.
 stale: false
+weight: 3
 ---
 
 ## Quickly build a Single Page website with Hugo

@@ -22,6 +22,7 @@ archetype:
 date: 2020-03-18T00:00:00.000Z
 description: A clean template for e-commerce, with full CMS edition
 stale: false
+weight: 2
 ---
 
 ##  Features
