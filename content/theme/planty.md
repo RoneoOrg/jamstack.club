@@ -20,6 +20,14 @@ services:
 archetype:
   - Ecommerce
 date: 2020-03-18T00:00:00.000Z
-description: Planty is an e-commerce ready theme powered by Snipcart.
+description: A clean template for e-commerce, with full CMS edition
 stale: false
 ---
+
+##  Features
+
+- Testimonials
+- Call to action
+- Snipcart integration
+
+See [the doc](https://github.com/snipcart/stackbit-theme-planty#readme) for more information
