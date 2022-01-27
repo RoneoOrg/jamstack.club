@@ -26,7 +26,7 @@
 {{ end }}
 
 {{ define "main" }}
-     {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+    {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
     {{ $repo := index .Site.Data.themes $repoName }}
     {{ $stackbit := index .Site.Data.stackbit $repoName }}
     <div class="demo">
@@ -38,6 +38,7 @@
             <div class="demo-heading">
                 <h1 class="demo-title">{{ .Title }}</h1>
                 <div class="theme-tags d-none d-lg-block">
+                  
                     {{ if .Params.ssg }}
                         {{- range .Params.ssg }}
                             {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
