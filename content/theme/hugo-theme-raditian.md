@@ -5,6 +5,7 @@ demo: https://raditian-hugo.radity.com/
 author: Radity
 author_link: https://github.com/radity
 date: 2022-02-05T20:25:23.000Z
+weight: 2
 ssg:
   - Hugo
 cms:
