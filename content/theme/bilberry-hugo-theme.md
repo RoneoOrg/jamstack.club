@@ -14,7 +14,7 @@ description: >-
   Clean, responsive, and feature-rich blogging theme ported from the WordPress
   Lingonberry theme.
 stale: false
-weight: 4
+weight: 2
 ---
 
 ## Features
