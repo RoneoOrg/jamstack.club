@@ -1,7 +1,7 @@
 ---
 title: Raditian
 github: https://github.com/business-science/raditian-free-hugo-theme-data-science
-demo: https://raditian-hugo.radity.com/
+demo: https://raditian-hugo.radity.com
 author: Radity
 author_link: https://github.com/radity
 date: 2022-02-05T20:25:23.000Z
