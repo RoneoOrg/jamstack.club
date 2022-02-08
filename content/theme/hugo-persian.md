@@ -1,5 +1,5 @@
 ---
-title: Persian Hugo
+title: Persian
 github: https://github.com/gethugothemes/persian-hugo
 demo: https://demo.gethugothemes.com/persian/
 author: Gethugothemes

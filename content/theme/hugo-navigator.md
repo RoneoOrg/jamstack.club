@@ -1,5 +1,5 @@
 ---
-title: Navigator Hugo
+title: Navigator
 github: https://github.com/gethugothemes/navigator-hugo/
 demo: https://demo.gethugothemes.com/navigator/
 author: Gethugothemes
