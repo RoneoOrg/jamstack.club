@@ -10,5 +10,5 @@ cms:
 date: 2019-08-15T20:25:37.000Z
 description: A simple, minimalistic Hugo theme. View Demo here
 stale: false
-weight: 2
+weight: 3
 ---
