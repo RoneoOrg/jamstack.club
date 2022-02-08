@@ -5,7 +5,7 @@ demo: https://hugodoit.pages.dev/
 author: PCloud
 author_link: https://planet-cloud.fun/
 date: 2022-02-07T18:25:23.000Z
-weight: 2
+weight: 3
 ssg:
   - Hugo
 cms:

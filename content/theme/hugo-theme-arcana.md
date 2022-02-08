@@ -5,7 +5,7 @@ demo: https://sec.gd/hugo/themes/arcana/
 author: mal
 author_link: https://github.com/half-duplex
 date: 2022-02-08T20:25:23.000Z
-weight: 2
+weight: 3
 ssg:
   - Hugo
 cms:
