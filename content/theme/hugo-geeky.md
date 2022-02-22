@@ -1,5 +1,5 @@
 ---
-title: Geeky Hugo
+title: Geeky
 github: https://github.com/statichunt/geeky-hugo
 demo: https://demo.statichunt.com/geeky-hugo/
 author: Statichunt

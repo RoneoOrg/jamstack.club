@@ -1,5 +1,5 @@
 ---
-title: Jekyll Garden
+title: Garden
 github: https://github.com/Jekyll-Garden/jekyll-garden.github.io
 demo: https://jekyll-garden.github.io/
 author: Hiran Venugopalan

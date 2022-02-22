@@ -1,5 +1,5 @@
 ---
-title: Influencer Hugo
+title: Influencer
 github: https://github.com/gethugothemes/influencer-hugo
 demo: https://demo.gethugothemes.com/influencer/site/
 author: Gethugothemes

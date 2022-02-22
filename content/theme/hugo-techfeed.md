@@ -1,5 +1,5 @@
 ---
-title: Techfeed Hugo
+title: Techfeed
 github: https://github.com/gethugothemes/techfeed-hugo
 demo: https://demo.gethugothemes.com/techfeed/site/
 author: Gethugothemes

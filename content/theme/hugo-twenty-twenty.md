@@ -1,5 +1,5 @@
 ---
-title: Twenty Twenty Hugo
+title: Twenty Twenty
 github: https://github.com/themefisher/twenty-twenty-hugo
 demo: https://demo.gethugothemes.com/twenty-twenty/site/
 author: Themefisher

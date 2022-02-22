@@ -1,5 +1,5 @@
 ---
-title: Hugo Casper
+title: Casper
 github: https://github.com/bdougie/casper-cms-template
 author: bdougie
 demo: https://casper-theme.netlify.com/

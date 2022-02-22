@@ -1,5 +1,5 @@
 ---
-title: Educenter Hugo
+title: Educenter
 github: https://github.com/themefisher/educenter-hugo
 demo: https://demo.gethugothemes.com/educenter/site/
 author: Themefisher

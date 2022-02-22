@@ -1,5 +1,5 @@
 ---
-title: Liva Hugo
+title: Liva
 github: https://github.com/gethugothemes/liva-hugo
 demo: https://demo.gethugothemes.com/liva/site/
 author: Gethugothemes

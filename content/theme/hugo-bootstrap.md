@@ -1,5 +1,5 @@
 ---
-title: Hugo Bootstrap Theme
+title: Bootstrap Theme
 github: https://github.com/razonyang/hugo-theme-bootstrap
 demo: https://hugo-theme-bootstrap.netlify.app/
 author: razonyang

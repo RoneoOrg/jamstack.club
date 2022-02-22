@@ -1,5 +1,5 @@
 ---
-title: Gatsby Material Starter
+title: Material Starter
 github: https://github.com/Vagr9K/gatsby-material-starter
 demo: https://gatsby-theme-material.netlify.app/
 author: vagr9k
