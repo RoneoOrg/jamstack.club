@@ -50,6 +50,12 @@ A [dedicated page](https://jamstack.club/theme/hugo-restaurant/) is created for 
 The index is updated, still automatically, and the website is published. It is hosted by [Netlify](https://www.netlify.com/) with a landing at [Jamstack.club](https://jamstack.club).
 
 
+## Roadmap
+
+See the upcoming features [on Gitlab](https://gitlab.com/Roneo/jamstack.club/-/boards/3757613):
+
+[![The roadmap of jamstack club](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/static/images/roadmap.jpg)](https://gitlab.com/Roneo/jamstack.club/-/boards/3757613)
+
 ## Acknowledgements
 
 See the [About page](https://jamstack.club/about/) for updated acknowledgements and shout-outs!
