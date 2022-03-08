@@ -52,7 +52,7 @@ The index is updated, still automatically, and the website is published. It is h
 
 ## Roadmap
 
-See the upcoming features [on Gitlab](https://gitlab.com/Roneo/jamstack.club/-/boards/3757613):
+See [our roadmap on Gitlab](https://gitlab.com/Roneo/jamstack.club/-/boards/3757613) to see where we are heading to:
 
 [![The roadmap of jamstack club](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/static/images/roadmap.jpg)](https://gitlab.com/Roneo/jamstack.club/-/boards/3757613)
 
