@@ -12,7 +12,7 @@ pygmentsUseClasses = true
 
 [params]
   segment_id = ""
-  description = "Find the best Jamstack Theme for your next project! Free, open-source, and curated Themes for Hugo, Eleventy, Jekyll, Gatsby and many more. "
+  description = "Find the best Jamstack Theme for your next project! Free, open-source, and curated themes for Hugo, Eleventy, Jekyll, Gatsby and many more. "
   stackbit_button = false
   iframe_demo = true
   assets_url = "https://assets.jamstackthemes.dev"

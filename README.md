@@ -9,12 +9,12 @@ Filter, sort, preview, and find the best Jamstack theme for your next project!
 
 Willing to help? Welcome aboard!
 
-**There are many ways you can contribute**, please read on!  
-**We value each contribution** and, if you wish, we can acknowledge you using the [@allcontributors](https://github.com/all-contributors/all-contributors#readme) principles.
+**There are many ways you can contribute**, and **we value each contribution**.  
+If you wish, we can acknowledge you using the [@allcontributors](https://github.com/all-contributors/all-contributors#readme) principles.
 
 ### Report a problem
 
-Found an issue? You can [submit a bug report](https://github.com/RoneoOrg/jamstack.club/issues), or [drop us an email](https://jamstack.club/contact/).
+Found an issue? You can [submit a report](https://github.com/RoneoOrg/jamstack.club/issues), or [drop us an email](https://jamstack.club/contact/).
 
 We'll get back to you as soon as possible.
 
@@ -35,24 +35,28 @@ Ready? Let's go!
 
 Yes, the screenshot and the demo page; the Github stars — everything is generated automatically!
 
+### Suggest an improvement
+
+Missing something? A new feature in mind?  
+We are open to your suggestions. [Leave us a message](https://jamstack.club/contact/) or [open a ticket](https://github.com/RoneoOrg/jamstack.club/issues) and we'll check it out.
+
 ### Work on the code
 
 See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)
 
 ## How does it work?
 
-Each theme is described in a Markdown file. (See [this example of a theme specification](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).
+Each theme is described in a Markdown file. (See [this example](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).
 
-The website is built with [Hugo](https://gohugo.io) along with [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) to automate the creation of the Github stats and generate a screenshot.
+The website is then built with [Hugo](https://gohugo.io) along with [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) to automate the creation of the Github stats and generate the screenshots.
 
-A [dedicated page](https://jamstack.club/theme/hugo-restaurant/) is created for each theme, as well as [a theme demo website](https://jamstack.club/demo/theme/hugo-restaurant/), at the 'Demo' URL filled out in the Markdown file.
+A [dedicated page](https://jamstack.club/theme/hugo-restaurant/) is created for each theme, as well as [a theme demo website](https://jamstack.club/demo/theme/hugo-restaurant/), showcasing the demo URL filled out in the Markdown file.
 
-The index is updated, still automatically, and the website is published. It is hosted by [Netlify](https://www.netlify.com/) with a landing at [Jamstack.club](https://jamstack.club).
+The index is updated, still automatically, and the website is published. Hosted by [Netlify](https://www.netlify.com/) with a landing at [Jamstack.club](https://jamstack.club).
 
+## What's coming up?
 
-## Roadmap
-
-See [our roadmap on Gitlab](https://gitlab.com/Roneo/jamstack.club/-/boards/3757613) to see where we are heading to:
+Check out [our roadmap](https://gitlab.com/Roneo/jamstack.club/-/boards/3757613) to see where we are heading to:
 
 [![The roadmap of jamstack club](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/static/images/roadmap.jpg)](https://gitlab.com/Roneo/jamstack.club/-/boards/3757613)
 

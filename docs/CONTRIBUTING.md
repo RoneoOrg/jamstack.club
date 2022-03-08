@@ -1,7 +1,7 @@
 
+## Prerequisites
 
-Be sure to also check the README
-
+Start with the [README](../README.md) for an overview.
 
 ## Develop Locally
 
