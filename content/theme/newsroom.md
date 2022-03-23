@@ -1,7 +1,7 @@
 ---
 title: Newsroom
 github: https://github.com/onweru/newsroom
-demo: https://rooms.netlify.com
+demo: https://rooms.netlify.app
 author: Weru
 ssg:
   - Hugo
