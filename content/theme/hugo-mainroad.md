@@ -12,4 +12,5 @@ description: >-
   Responsive, simple, clean and content-focused Hugo theme based on the MH
   Magazine lite WordPress theme
 stale: false
+weight: 3
 ---
