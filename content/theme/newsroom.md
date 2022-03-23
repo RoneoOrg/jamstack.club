@@ -23,8 +23,8 @@ weight: 2
 
 ## Dark mode
 
-![Hugo theme Newsroom: Dark mode](newsroom-img/2022-03-23-06-55-21.jpg)
+![Hugo theme Newsroom: Dark mode](/images/screenshots/newsroom-img/2022-03-23-06-55-21.jpg)
 
 ## Syntax highlighting
 
-![Newsroom supports syntax highlighting](newsroom-img/2022-03-23-06-57-07.jpg)
+![Newsroom supports syntax highlighting](/images/screenshots/newsroom-img/2022-03-23-06-57-07.jpg)
