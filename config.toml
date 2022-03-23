@@ -6,6 +6,8 @@ paginate = 18
 summaryLength = 10
 # enableGitInfo = false
 
+rssLimit = 50
+
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
