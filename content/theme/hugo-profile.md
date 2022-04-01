@@ -7,7 +7,7 @@ date: 2020-10-22T00:00:00.000Z
 ssg:
   - Hugo
 cms:
-  - NetlifyCMS
+  - No CMS
 css:
   - Bootstrap
 archetype:
