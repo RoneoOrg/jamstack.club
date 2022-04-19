@@ -6,4 +6,5 @@ public
 .vscode
 .hugo_build.lock
 resources/
-.hugo_build.lock
+git-subtree/
+jamstack.club+statichunt.code-workspace
