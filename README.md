@@ -10,7 +10,7 @@ Filter, sort, preview, and find the best Jamstack theme for your next project!
 Willing to help? Welcome aboard!
 
 **There are many ways you can contribute**, and **we value each contribution**.  
-If you wish, we can acknowledge you using the [@allcontributors](https://github.com/all-contributors/all-contributors#readme) principles.
+If you wish, we can acknowledge you using the [@allcontributors principles](https://github.com/all-contributors/all-contributors#readme).
 
 ### Report a problem
 
