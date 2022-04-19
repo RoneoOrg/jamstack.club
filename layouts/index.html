@@ -21,13 +21,14 @@
     <div class="wrapper">
         <div class="sidebar">
             <div class="container">
-                {{ partial "filters.html" (dict "context" . "countAll" false) }}
-
-                <!-- Sidebar toggler -->
-                <div class="sidebar-main-menu d-block d-lg-none">
-                  {{ range .Site.Menus.main }}<a href="{{.URL}}">{{ .Name }}</a>{{end}}
-                </div>
-
+              
+              <!-- Sidebar toggler -->
+              <div class="sidebar-main-menu d-block d-lg-none">
+                {{ range .Site.Menus.main }}<a href="{{.URL}}">{{ .Name }}</a>{{end}}
+              </div>
+              
+              {{ partial "filters.html" (dict "context" . "countAll" false) }}
+              
             </div>
         </div>
 
