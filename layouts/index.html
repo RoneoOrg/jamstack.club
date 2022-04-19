@@ -22,6 +22,12 @@
         <div class="sidebar">
             <div class="container">
                 {{ partial "filters.html" (dict "context" . "countAll" false) }}
+
+                <!-- Sidebar toggler -->
+                <div class="sidebar-main-menu d-block d-lg-none">
+                  {{ range .Site.Menus.main }}<a href="{{.URL}}">{{ .Name }}</a>{{end}}
+                </div>
+
             </div>
         </div>
 
@@ -75,8 +81,10 @@
     {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
     {{ $filter := resources.Get "js/filter/filter.js" }}
     {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
+    {{ $sidebarToggler := resources.Get "js/sidebar-toggler.js" }}
 
-    {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle | resources.Concat "js/homeBundle.js" }}
+
+    {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle $sidebarToggler | resources.Concat "js/homeBundle.js" }}
 
     {{ if .Site.IsServer }}
         <script type="text/javascript" src="{{ $homeBundle.RelPermalink }}"></script>
