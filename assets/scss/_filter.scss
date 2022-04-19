@@ -1,15 +1,23 @@
+.sidebar {
+  user-select: none;
+}
+.filter-list {
+  list-style: none;
+}
 .filters {
   .filter {
     padding: 15px 0px;
     &.closed {
       .filter-list {
-        display: none;
+        display: none !important;
       }
       .filter-title {
         margin: 0;
       }
       .toggle-icon {
-        transform: rotate(270deg);
+        img {
+          transform: rotate(270deg);
+        }
       }
     }
     &:first-of-type {
@@ -18,7 +26,6 @@
   }
   .filter-title {
     display: flex;
-    flex-wrap: wrap;
     margin-bottom: 10px;
     @include media-breakpoint-up(md) {
       display: flex;
@@ -68,13 +75,13 @@
       }
     }
     .toggle-icon {
-      margin-left: auto;
       cursor: pointer;
-      display: none;
-      @include media-breakpoint-up(md) {
-         display: flex;
-      }
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
       img {
+        margin-left: auto;
         width: 14px;
       }
       svg {
@@ -89,6 +96,11 @@
   .filter-list {
     margin: 0;
     padding: 0;
+
+    li {
+      margin-bottom: 1px;
+    }
+
     &.closed {
       .filter-item {
         display: none;
@@ -103,21 +115,19 @@
       }
     }
     .toggle-more {
-      text-transform: uppercase;
-      line-height: 18px;
-      color: $primary;
-      margin-left: 26px;
-      display: flex;
+      padding: 10px 20px;
+      border-radius: 5px;
       cursor: pointer;
-      padding: 6px 2px;
-      &:hover {
-        opacity: 0.8;
-      }
+      margin: 5px 0;
+      list-style: none;
+
       .toggle-more-icon {
-        height: 14px;
-        width: 14px;
-        svg {
-          color: $primary;
+        color: $carbon;
+        line-height: 18px;
+        font-size: 13px;
+
+        img {
+          margin-right: 5px;
         }
       }
       .toggle-more-icon-plus {
@@ -134,59 +144,117 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      margin-bottom: 6px;
-      font-size: 13px;
+      font-size: 14px;
       line-height: 18px;
+      padding: 10px 0;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      border: 1px solid transparent;
+      background-color: transparent;
+      outline: 0;
+      position: relative;
+      z-index: 1;
+
+      &-link {
+        padding: 0;
+
+        a {
+          padding: 12px 20px;
+          display: flex;
+          height: 100%;
+          width: 100%;
+          align-items: center;
+          justify-content: flex-start;
+          text-decoration: none;
+        }
+      }
+
       &:last-of-type {
         margin-bottom: 0;
       }
-      .filter-button {
-        margin-right: 8px;
-        display: inline-block;
-        vertical-align: text-top;
+      &::after {
+        position: absolute;
+        content: "";
+        z-index: -1;
+        height: 100%;
+        width: calc(100% + 28px);
+        top: 0;
+        left: -12px;
+        border-radius: 3px;
+      }
+
+      .filter-icon {
         width: 18px;
         height: 18px;
-        background: lighten($grey,6%);
-        border: 1px solid darken($grey, 40%);
-        border-radius: 3px;
-        cursor: pointer;
-        &:hover {
-          border: 2px solid $primary;
+        margin-right: 8px;
+      }
+
+      .filter-select {
+        display: inline-block;
+        position: relative;
+        padding-left: 3px;
+        // transition: 0.2s ease-in-out;
+        &::after,
+        &::before {
+          position: absolute;
+          content: "";
+          height: 15px;
+          width: 15px;
+          border: 2px solid $carbon;
+          top: 3px;
+          left: -20px;
+          border-radius: 2px;
+          z-index: 1;
+          opacity: 0;
         }
-        &:focus {
-          outline: none;
-          box-shadow: 0 0 5px $primary;
-        }
-        &:focus:not(:focus-visible) {
-          // for modern browsers, remove outline if mouse focus
-          box-shadow: none;
-        }
-        &.mixitup-control-active {
-          background: $primary;
-          border: 2px solid $primary;
-          background-image: url("../images/ui/check-solid.svg");
-          background-size: 12px 12px;
-          background-position: center center;
+        // &::before {
+        //   display: none;
+        // }
+        &::after {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%2344b5d8' d='M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z' class=''%3E%3C/path%3E%3C/svg%3E");
           background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          height: 17px;
+          width: 17px;
+          border: 0;
+          top: 2px;
+          left: -21px;
+        }
+        img {
+          transition: 0s;
         }
       }
-      .filter-icon {
-        img {
 
+      &:hover {
+        background-color: transparent;
+        &::after {
+          background-color: $white;
         }
-        width: 18px;
-        height: 18px;
-        margin-right: 8px;
+        .filter-select::before {
+          opacity: 1;
+        }
+      }
+
+      &.mixitup-control-active {
+        &::after {
+          background-color: $white;
+        }
+        .filter-select {
+          &::before {
+            opacity: 0;
+          }
+          &::after {
+            opacity: 1;
+          }
+        }
       }
       .filter-name {
-        display: none;
         color: $carbon;
         a {
           color: black;
           text-decoration: none;
-        }
-        @include media-breakpoint-up(md) {
-          display: block;
         }
       }
       .filter-link {
@@ -203,9 +271,10 @@
       }
       .filter-count {
         color: #666;
-        @include media-breakpoint-up(md) {
-          margin: 0 0 0 auto;
-        }
+        margin: 0 0 0 auto;
+        // @include media-breakpoint-up(md) {
+        // margin: 0 0 0 auto;
+        // }
       }
     }
   }
@@ -223,13 +292,13 @@
 
   // Box.
   & + label:before {
-    content: '';
+    content: "";
     margin-right: 10px;
     display: inline-block;
     vertical-align: text-top;
     width: 20px;
     height: 20px;
-    background: lighten($grey,6%);
+    background: lighten($grey, 6%);
     border: 2px solid darken($grey, 0%);
     border-radius: 3px;
     // box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
@@ -243,9 +312,9 @@
   }
 
   // Box focus
-  &:focus + label:before {
-    // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
-  }
+  // &:focus+label:before {
+  //   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  // }
 
   // Box checked
   &:checked + label:before {
@@ -267,7 +336,7 @@
 
   // Checkmark. Could be replaced with an image
   &:checked + label:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 5px;
     top: 9px;
@@ -295,4 +364,15 @@
 	100% {
 		opacity: 1;
 	}
+}
+
+@media screen and (max-width: 1400px) {
+  .filter-group-ssg {
+    .d-none.d-md-block {
+      display: none !important;
+    }
+    .d-block.d-md-none {
+      display: block !important;
+    }
+  }
 }

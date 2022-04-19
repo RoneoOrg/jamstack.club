@@ -1,0 +1,76 @@
+
+
+.sidebar-toggler {
+  border: 1px solid #f6f6f6;
+  border-radius: 8px;
+  display: none;
+  .sidebar-toggle-icon {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform .4s;
+    user-select: none;
+    .top {
+      stroke-dasharray: 40 121;
+    }
+    .bottom {
+      stroke-dasharray: 40 121;
+    }
+    .line {
+      fill: none;
+      transition: stroke-dasharray .4s, stroke-dashoffset .4s;
+      stroke: #333333;
+      stroke-width: 5.5;
+      stroke-linecap: round;
+    }
+    &.active {
+      transform: rotate(45deg);
+      .top {
+        stroke-dashoffset: -68px;
+      }
+      .bottom {
+        stroke-dashoffset: -68px;
+      }
+    }
+  }
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 61px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: $black;
+  z-index: 11;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: 0.25s;
+  &.show {
+    opacity: .4;
+    visibility: visible;
+    pointer-events: all;
+  }
+}
+
+.has-sidebar {
+  .sidebar-toggler {
+    display: block;
+  }
+}
+
+.sidebar-main-menu {
+  border-top: 1px solid #ddd;
+  padding: 25px 0px;
+  a {
+    color: black;
+    display: block;
+    padding: 8px 0;
+    &:hover {
+      color: $primary;
+
+    }
+  }
+}
+
+
