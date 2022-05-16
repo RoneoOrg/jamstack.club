@@ -8,3 +8,6 @@ public
 resources/
 git-subtree/
 jamstack.club+statichunt.code-workspace
+
+# Local Netlify folder
+.netlify
