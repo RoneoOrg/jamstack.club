@@ -29,6 +29,7 @@ archetype: # Describe the archetype (the appearance) of the theme. Optional but 
 
 description: A customizable, SEO-optimized blog and portfolio theme with a modern design. # Describe the theme in a sentence
 
+weight: 2
 ---
 
 # Hugo Liftoff
