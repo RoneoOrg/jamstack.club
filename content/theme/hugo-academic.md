@@ -12,7 +12,7 @@ description: >-
   📝 The website builder for Hugo. Build and deploy a beautiful website in
   minutes!
 stale: false
-weight: 2
+weight: 4
 ---
 
 The website builder for Hugo. Build and deploy a beautiful website in minutes!
