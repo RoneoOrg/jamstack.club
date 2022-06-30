@@ -43,78 +43,78 @@
                     <div class="row justify-content-center">
 
 
-                        <!-- sidebar -->
-                        <div class="col-lg-4">
+                          <!-- sidebar -->
+                          <div class="col-lg-4">
 
-                          <div class="intro-heading">
-                            <h1 class="intro-title">{{ .Title }} </h1>
-                          </div>
+                              <div class="intro-heading">
+                                <h1 class="intro-title">{{ .Title }} </h1>
+                              </div>
 
-                          <div class="intro-description">
-                            <p>{{ .Params.description }}</p>
-                            {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
-                            {{ if $repo }}{{ partial "labels/label-forks.html" (dict "forks" $repo.forks) }}{{ end }}
-                            {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
+                              <div class="intro-description">
+                                <p>{{ .Params.description }}</p>
+                                {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
+                                {{ if $repo }}{{ partial "labels/label-forks.html" (dict "forks" $repo.forks) }}{{ end }}
+                                {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
 
-                            <div class="action-buttons action-buttons-detail mb-0">
-                              <a class="action-button action-button-github" data-action="github" data-context="detail"
-                                data-name="{{ .Title }}" href="{{with .Params.github }}{{. | safeURL}}{{else}}{{.Params.Product | safeURL}}{{end}}" target="_blank" rel="nofollow noopener">{{if .Params.github}}Github{{else}}Website{{end}}</a>
+                                <div class="action-buttons action-buttons-detail mb-0">
+                                  <a class="action-button action-button-github" data-action="github" data-context="detail"
+                                    data-name="{{ .Title }}" href="{{with .Params.github }}{{. | safeURL}}{{else}}{{.Params.Product | safeURL}}{{end}}" target="_blank" rel="nofollow noopener">{{if .Params.github}}Github{{else}}Website{{end}}</a>
 
-                              <a class="action-button action-button-demo" data-action="demo" data-context="detail" target="_blank"
-                                data-name="{{ .Title }}" href="/demo{{ .RelPermalink }}">Live Demo</a>
-                            </div>
-                          </div>
+                                  <a class="action-button action-button-demo" data-action="demo" data-context="detail" target="_blank"
+                                    data-name="{{ .Title }}" href="/demo{{ .RelPermalink }}">Live Demo</a>
+                                </div>
+                              </div>
 
-                          <!-- author info -->
-                          <div class="widget">
-                            <h3 class="h4">Author Details:</h3>
-                            {{ partial "author-details.html" . }}
-                          </div>
+                              <!-- author info -->
+                              <div class="widget">
+                                <h3 class="h4">Author Details:</h3>
+                                {{ partial "author-details.html" . }}
+                              </div>
 
-                          <!-- theme details -->
-                          <div class="theme-detail-tags widget">
-                            {{ if .Params.ssg }}
-                                {{- range .Params.ssg }}
-                                    {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-                                        {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                                    {{ end }}
-                                {{ end }}
-                            {{ end }}
-
-                            {{ if .Params.cms }}
-                                {{- range .Params.cms }}
-                                    {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
-                                        {{ if eq .Page.Title "No CMS" }}
-                                        {{ else }}
+                              <!-- theme details -->
+                              <div class="theme-detail-tags widget">
+                                {{ if .Params.ssg }}
+                                    {{- range .Params.ssg }}
+                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
                                             {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
                                         {{ end }}
                                     {{ end }}
                                 {{ end }}
-                            {{ end }}
 
-                            {{ if .Params.css }}
-                                {{- range .Params.css }}
-                                    {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
-                                        {{ if eq .Page.Title "No css" }}
-                                        {{ else }}
-                                            {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                {{ if .Params.cms }}
+                                    {{- range .Params.cms }}
+                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+                                            {{ if eq .Page.Title "No CMS" }}
+                                            {{ else }}
+                                                {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                            {{ end }}
                                         {{ end }}
                                     {{ end }}
                                 {{ end }}
-                            {{ end }}
 
-                            {{ if .Params.archetype }}
-                                {{- range .Params.archetype }}
-                                    {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
-                                        {{ if eq .Page.Title "No archetype" }}
-                                        {{ else }}
-                                            {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                {{ if .Params.css }}
+                                    {{- range .Params.css }}
+                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+                                            {{ if eq .Page.Title "No css" }}
+                                            {{ else }}
+                                                {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                            {{ end }}
                                         {{ end }}
                                     {{ end }}
                                 {{ end }}
-                            {{ end }}
-                        </div><!--/ sidebar -->
-                    </div>
+
+                                {{ if .Params.archetype }}
+                                    {{- range .Params.archetype }}
+                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+                                            {{ if eq .Page.Title "No archetype" }}
+                                            {{ else }}
+                                                {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                            {{ end }}
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+                               </div>
+                          </div><!--/ sidebar -->
 
                         <div class="col-lg-8">
 
