@@ -116,25 +116,12 @@
                                </div>
                           </div><!--/ sidebar -->
 
+                        <!-- main content -->
                         <div class="col-lg-8">
 
-                          <!-- iframe -->
-                          <div class="bws-block d-none d-md-block">
-                            <div class="bws-header">
-                              <div class="bws-actions">
-                                {{ with .Params.demo }}
-                                <a target="blank" href="{{.| safeURL}}">Full screen</a>
-                                {{ end }}
-                              </div>
-                            </div>
-                            <div class="bws-content">
-                              <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
-                                src="{{ .Params.demo }}/" title="Theme preview"></iframe>
-                            </div>
-                          </div>
 
                           <!-- image -->
-                          <div class="theme-detail-image d-block d-md-none mb-4">
+                          <div class="theme-detail-image mb-4">
                             {{ if $repo }}
                                 {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
                                 {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
@@ -149,6 +136,23 @@
                             {{ .Content }}
                           </div>
 
+                          <!-- iframe -->
+                          <div class="theme-preview d-none d-md-block">
+                            <h2>Live preview</h2>
+                            <div class="bws-block">
+                              <div class="bws-header">
+                                <div class="bws-actions">
+                                  {{ with .Params.demo }}
+                                  <a target="blank" href="{{.| safeURL}}">Full screen</a>
+                                  {{ end }}
+                                </div>
+                              </div>
+                              <div class="bws-content">
+                                <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
+                                  src="{{ .Params.demo }}/" title="Theme preview"></iframe>
+                              </div>
+                            </div>
+                          </div>
 
                         </div>
 
