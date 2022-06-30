@@ -41,41 +41,7 @@
             <div class="container">
                 <div class="theme theme-detail" data-name="{{ .Title }}">
                     <div class="row justify-content-center">
-                        <div class="col-lg-8">
 
-                          <!-- iframe -->
-                          <div class="bws-block d-none d-md-block">
-                            <div class="bws-header">
-                              <div class="bws-actions">
-                                {{ with .Params.demo }}
-                                <a target="blank" href="{{.| safeURL}}">Full screen</a>
-                                {{ end }}
-                              </div>
-                            </div>
-                            <div class="bws-content">
-                              <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
-                                src="{{ .Params.demo }}/" title="Theme preview"></iframe>
-                            </div>
-                          </div>
-
-                          <!-- image -->
-                          <div class="theme-detail-image d-block d-md-none mb-4">
-                            {{ if $repo }}
-                                {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
-                                {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
-                                {{ if (fileExists $staticPath) }}
-                                    <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot"/>
-                                {{ end }}
-                            {{ end }}
-                          </div>
-
-                          <!-- content -->
-                          <div class="content">
-                            {{ .Content }}
-                          </div>
-
-
-                        </div>
 
                         <!-- sidebar -->
                         <div class="col-lg-4">
@@ -149,6 +115,43 @@
                             {{ end }}
                         </div><!--/ sidebar -->
                     </div>
+
+                        <div class="col-lg-8">
+
+                          <!-- iframe -->
+                          <div class="bws-block d-none d-md-block">
+                            <div class="bws-header">
+                              <div class="bws-actions">
+                                {{ with .Params.demo }}
+                                <a target="blank" href="{{.| safeURL}}">Full screen</a>
+                                {{ end }}
+                              </div>
+                            </div>
+                            <div class="bws-content">
+                              <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
+                                src="{{ .Params.demo }}/" title="Theme preview"></iframe>
+                            </div>
+                          </div>
+
+                          <!-- image -->
+                          <div class="theme-detail-image d-block d-md-none mb-4">
+                            {{ if $repo }}
+                                {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+                                {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+                                {{ if (fileExists $staticPath) }}
+                                    <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot"/>
+                                {{ end }}
+                            {{ end }}
+                          </div>
+
+                          <!-- content -->
+                          <div class="content">
+                            {{ .Content }}
+                          </div>
+
+
+                        </div>
+
                   </div>
                 </div>
                 <!-- newsletter -->
