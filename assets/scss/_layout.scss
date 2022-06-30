@@ -160,3 +160,7 @@ $layout-padding: 15px;
   font-size: 38px;
   font-weight: 400;
 }
+
+.single-theme .row {
+    flex-direction: row-reverse;
+  }
