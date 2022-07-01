@@ -1,4 +1,4 @@
 ---
 title: "Portfolio"
-icon: images/icons/portfolio.svg
+icon: images/icons/hashtag.svg
 ---

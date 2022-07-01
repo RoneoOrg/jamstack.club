@@ -1,4 +1,4 @@
 ---
 title: "Personal"
-icon: images/icons/personal.svg
+icon: images/icons/hashtag.svg
 ---

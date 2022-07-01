@@ -1,4 +1,4 @@
 ---
-title: "Business"
+title: "Gallery"
 icon: images/icons/hashtag.svg
 ---
