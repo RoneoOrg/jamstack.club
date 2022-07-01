@@ -52,17 +52,18 @@
 
                               <div class="intro-description">
                                 <p>{{ .Params.description }}</p>
+
                                 {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
                                 {{ if $repo }}{{ partial "labels/label-forks.html" (dict "forks" $repo.forks) }}{{ end }}
                                 {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
 
-                                <div class="action-buttons action-buttons-detail mb-0">
-                                  <a class="action-button action-button-github" data-action="github" data-context="detail"
-                                    data-name="{{ .Title }}" href="{{with .Params.github }}{{. | safeURL}}{{else}}{{.Params.Product | safeURL}}{{end}}" target="_blank" rel="nofollow noopener">{{if .Params.github}}Github{{else}}Website{{end}}</a>
 
-                                  <a class="action-button action-button-demo" data-action="demo" data-context="detail" target="_blank"
-                                    data-name="{{ .Title }}" href="/demo{{ .RelPermalink }}">Live Demo</a>
+                                <!-- theme CTA buttons -->
+                                <div class="d-none d-lg-block">
+                                  {{ partial "theme-cta-buttons.html" . }}
                                 </div>
+
+
                               </div>
 
                               <!-- author info -->
@@ -71,49 +72,11 @@
                                 {{ partial "author-details.html" . }}
                               </div>
 
-                              <!-- theme details -->
-                              <div class="theme-detail-tags widget">
-                                {{ if .Params.ssg }}
-                                    {{- range .Params.ssg }}
-                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-                                            {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                                        {{ end }}
-                                    {{ end }}
-                                {{ end }}
+                              <!-- theme tags -->
+                              <div class="d-none d-lg-block">
+                                {{ partial "theme-tags.html" . }}
+                              </div>
 
-                                {{ if .Params.cms }}
-                                    {{- range .Params.cms }}
-                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
-                                            {{ if eq .Page.Title "No CMS" }}
-                                            {{ else }}
-                                                {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                                            {{ end }}
-                                        {{ end }}
-                                    {{ end }}
-                                {{ end }}
-
-                                {{ if .Params.css }}
-                                    {{- range .Params.css }}
-                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
-                                            {{ if eq .Page.Title "No css" }}
-                                            {{ else }}
-                                                {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                                            {{ end }}
-                                        {{ end }}
-                                    {{ end }}
-                                {{ end }}
-
-                                {{ if .Params.archetype }}
-                                    {{- range .Params.archetype }}
-                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
-                                            {{ if eq .Page.Title "No archetype" }}
-                                            {{ else }}
-                                                {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                                            {{ end }}
-                                        {{ end }}
-                                    {{ end }}
-                                {{ end }}
-                               </div>
                           </div><!--/ sidebar -->
 
                         <!-- main content -->
@@ -158,9 +121,19 @@
 
                   </div>
                 </div>
+
+                <!-- theme CTA buttons for mobile -->
+                <div class="d-lg-none">
+                  {{ partial "theme-cta-buttons.html" . }}
+                </div>
+
+                <!-- theme tags for mobile -->
+                <div class="d-lg-none">
+                  {{ partial "theme-tags.html" . }}
+                </div>
                 <!-- newsletter -->
                 {{- partial "newsletter.html" . -}}
-            </div>
-        </div>
+          </div>
+      </div>
     </div>
 {{ end }}

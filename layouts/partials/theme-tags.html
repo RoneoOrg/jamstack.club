@@ -1,0 +1,45 @@
+
+<!-- theme details -->
+<div class="theme-detail-tags widget">
+  <h3 class="h4">Categories:</h3>
+  {{ if .Params.ssg }}
+      {{- range .Params.ssg }}
+          {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+              {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+          {{ end }}
+      {{ end }}
+  {{ end }}
+
+  {{ if .Params.cms }}
+      {{- range .Params.cms }}
+          {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+              {{ if eq .Page.Title "No CMS" }}
+              {{ else }}
+                  {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ end }}
+          {{ end }}
+      {{ end }}
+  {{ end }}
+
+  {{ if .Params.css }}
+      {{- range .Params.css }}
+          {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+              {{ if eq .Page.Title "No css" }}
+              {{ else }}
+                  {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ end }}
+          {{ end }}
+      {{ end }}
+  {{ end }}
+
+  {{ if .Params.archetype }}
+      {{- range .Params.archetype }}
+          {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+              {{ if eq .Page.Title "No archetype" }}
+              {{ else }}
+                  {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ end }}
+          {{ end }}
+      {{ end }}
+  {{ end }}
+  </div>
