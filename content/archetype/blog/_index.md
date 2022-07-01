@@ -1,4 +1,4 @@
 ---
 title: "Blog"
-icon: images/icons/blog.svg
+icon: images/icons/hashtag.svg
 ---

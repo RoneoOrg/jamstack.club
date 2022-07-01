@@ -1,4 +1,4 @@
 ---
 title: "Ecommerce"
-icon: images/icons/ecommerce.svg
+icon: images/icons/hashtag.svg
 ---
