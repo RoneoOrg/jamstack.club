@@ -1,7 +1,10 @@
-.intro {
-  .intro-heading {
-    margin-bottom: 10px;
+.intro-heading {
+  margin-bottom: 10px;
+  h1 {
+      color: $carbon-clear;
+    }
   }
+.intro {
   .intro-icon {
     display: inline-block;
     vertical-align: middle;
