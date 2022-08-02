@@ -1,91 +1,71 @@
 ---
 
-# To submit a new theme, just edit this file and delete inappropriate suggestions.
-# Note that the screenshot and the Github Stars are automatically generated.
+title: "Roxo Eleventy | a digital agency template"
+github: https://github.com/StaticMania/roxo-eleventy 
+demo: https://roxo-eleventy.staticmania.com/
 
-title: "Your Theme Name" # Enter the theme name here. No need to mention the SSG at this point.
-github: https://github.com/RoneoOrg/markdown # This repo URL will be used to generate Github stats (Stars, Forks, Last Update)
-demo: https://roneo.org/markdown # Make sure this links to a dedicated demo, and not a personal/business site. The demo url must use httpS.
+author: StaticMania 
+author_link: https://github.com/StaticMania
 
-author: Sullivan # The name or nickname of the theme's author.
-author_link: https://sullivan.com # The personal site of the author, or a Github/Gitlab/Twitter link, for a proper acknowledgement. Delete this line if none is available.
-
-date: 2021-10-20 # Enter the date you submitted the theme in the format YYYY-MM-DD.
+date: 2022-08-02
 
 disabled: true # Please delete this line to get this file considered during the next build.
 
 ssg:
-  - Eleventy # at least one SSG is required. Delete the inappropriate lines.
-  - Gatsby
-  - Gridsome
-  - Hexo
-  - Hugo
-  - Jekyll
-  - Next
-  - Nuxt
-  - Statiq
-  - Unibit
-  - Vuepress
+  - Eleventy 
 
 cms:
   - No CMS # at least one cms is required. If your theme uses no CMS, please leave a line with "No CMS"
-  - Contentful
-  - DatoCMS
-  - Forestry
-  - Ghost
-  - Kontent
-  - NetlifyCMS
-  - Airtable
-  - Cosmic
-  - GraphCMS
-  - Prismic
-  - Sanity
-  - Storyblok
-  - Wordpress
 
-css: # Naming the CSS framework is optional but welcome. Delete all lines if required.
+css:
   - Bootstrap 
-  - Bulma
-  - PostCSS
-  - SCSS
-  - Tailwind
-  - Stylus
 
 archetype: # Describe the archetype (the appearance) of the theme. Optional but warmly recommended. Delete the inappropriate lines.
   - Blog
-  - Documentation
-  - Ecommerce
-  - Gallery
+  - Portfolio
+  - Agency
   - Landing Page
   - Multi Purpose
-  - Portfolio
   - Resume
 
-description: This is an amazing theme and this is a small description about it! # Describe the theme in a sentence
+description: Roxo is a digital agency theme for creative agencies, freelancers, graphic designers, photographers. Can be used for any kind of corporate websites who provides digital services with many expertise such as Design, Digital Products, Development, Campaign & Content, Employer Branding, Animation & Motion Graphics ,Packaging & Product Design, Retail & Spacial, Print & Editorial Design, Concept/Text, Information Design etc. Roxo ’s contact form is supported Formspree.
 
 ---
 
-# Here is the main title: be imaginative (or just descriptive!)
+## Table of Contents
 
-Now you can describe the theme as precisely as you want.  
-You can use every possibilities offered by Markdown. See https://roneo.org/markdown for an overview.
+-  [Installation](#Installation)
+-  [Main Features](#Features)
+-  [Support](#Support)
+-  [Licensing](#Licensing)
+-  [Hire](#Need-Help)
 
-Lorem ipsum: Ullamco mollit veniam ut et nostrud magna sunt. Esse nostrud exercitation enim minim aute. Ipsum ullamco amet incididunt ea. Irure reprehenderit nostrud fugiat labore labore velit Lorem culpa tempor cillum.
+## Installation
 
-Aliqua laborum consequat occaecat incididunt do laborum amet do eiusmod. Elit eu pariatur veniam aliquip ut fugiat culpa mollit voluptate ex reprehenderit labore nisi.
+1. Add the repository into your Eleventy Project repository by `git clone https://github.com/StaticMania/roxo-eleventy.git`
 
-Ad exercitation adipisicing adipisicing ullamco Lorem nisi esse.
+2. Install npm dependencies by `npm install`
+
+3. Build and run project by `npx run dev` and see the result at `http://localhost:8080/`
 
 ## Features
 
-* First feature
-* Second
-* Third feature
+-  Responsive Ready.
+-  Powered by Bootstrap 4.
+-  Dedicated portfolio and blog page.
+-  Well formatted code.
+-  Easy Customization.
+-  Formspree Contact form.
+-  Crafted for Design Agency/ Portfolio
 
-Dolor minim excepteur ullamco incididunt officia. Occaecat labore do esse id officia ea reprehenderit adipisicing. Aute ipsum velit proident eiusmod officia sint esse ut nulla pariatur.
+## Support
 
-Velit aliquip quis eu id consequat laborum magna et sint anim dolore magna labore. Incididunt excepteur occaecat amet proident id nostrud amet nisi eu deserunt excepteur excepteur enim. Aute aliqua sint anim irure deserunt sint dolore reprehenderit.
+Have some question or facing any technical trouble feel free to [Contact Us](https://staticmania.com/contact/)
 
-Key takeaways: this theme is recommended for ..
+## Licensing
 
-# Please delete the comments when you're done, then click on "Propose changes" right below and voilà!
+This Repository is licensed under the [MIT](#) License
+
+## Need-Help
+
+We are an open book if you have any querie please feel free to contact us for any changes. [contact](https://staticmania.com/contact/)
