@@ -11,8 +11,9 @@ cms:
 archetype:
   - Blog
   - Portfolio
-description: An opinionated theme with a focus on minimalism and simplicity.
+description: An opinionated theme with a focus on minimalism and simplicity, with a dynamic ToC, dark theme and easy customizations
 stale: false
+weight: 2
 ---
 
 ## Features

@@ -12,6 +12,7 @@ archetype:
   - Blog
 description: Ava is a light theme for your blog with essential features you might dig in.
 stale: false
+weight: 2
 ---
 
 # A simple theme for blogging with Hugo
