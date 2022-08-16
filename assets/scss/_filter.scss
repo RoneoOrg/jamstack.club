@@ -36,9 +36,13 @@
       display: flex;
       align-items: center;
     }
+    h2 {
+      font-weight: $font-weight-bold;
+      }
     h3 {
       margin-top: 10px;
       font-size: 20px;
+      font-weight: $font-weight-bold;
       line-height: 18px;
       @include media-breakpoint-up(md) {
         font-size: 20px;
