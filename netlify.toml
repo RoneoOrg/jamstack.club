@@ -18,8 +18,8 @@
   [headers.values]
   Access-Control-Allow-Origin = "*"
 
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
+# [[plugins]]
+#   package = "@netlify/plugin-lighthouse"
 
   # # optional, fails build when a category is below a threshold
   # [plugins.inputs.thresholds]
