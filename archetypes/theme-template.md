@@ -3,19 +3,27 @@
 # To submit a new theme, just edit this file and delete inappropriate suggestions.
 # Note that the screenshot and the Github Stars are automatically generated.
 
-title: "Your Theme Name" # Enter the theme name here. No need to mention the SSG at this point.
-github: https://github.com/RoneoOrg/markdown # This repo URL will be used to generate Github stats (Stars, Forks, Last Update)
-demo: https://roneo.org/markdown # Make sure this links to a dedicated demo, and not a personal/business site. The demo url must use httpS.
+# Enter the theme name here. No need to mention the SSG at this point.
+title: "Your Theme Name"
+# This repo URL will be used to generate Github stats (Stars, Forks, Last Update)
+github: https://github.com/RoneoOrg/markdown
+# Make sure this links to a dedicated demo, and not a personal/business site. The demo url must use httpS.
+demo: https://roneo.org/markdown
 
-author: Sullivan # The name or nickname of the theme's author.
-author_link: https://sullivan.com # The personal site of the author, or a Github/Gitlab/Twitter link, for a proper acknowledgement. Delete this line if none is available.
+# The name or nickname of the theme's author.
+author: Sullivan
+# The personal site of the author, or a Github/Gitlab/Twitter link, for a proper acknowledgement. Delete this line if none is available.
+author_link: https://sullivan.com
 
-date: 2021-10-20 # Enter the date you submitted the theme in the format YYYY-MM-DD.
+ # Enter the date you submitted the theme in the format YYYY-MM-DD.
+date: 2021-10-20
 
-disabled: true # Please delete this line to get this file considered during the next build.
+# Please delete this line to get this file considered during the next build.
+disabled: true
 
+# At least one SSG is required. Delete the inappropriate lines.
 ssg:
-  - Eleventy # at least one SSG is required. Delete the inappropriate lines.
+  - Eleventy
   - Gatsby
   - Gridsome
   - Hexo
@@ -27,8 +35,9 @@ ssg:
   - Unibit
   - Vuepress
 
+# At least one cms is required. If your theme uses no CMS, please leave a line with "No CMS"
 cms:
-  - No CMS # at least one cms is required. If your theme uses no CMS, please leave a line with "No CMS"
+  - No CMS
   - Contentful
   - DatoCMS
   - Forestry
@@ -43,15 +52,17 @@ cms:
   - Storyblok
   - Wordpress
 
-css: # Naming the CSS framework is optional but welcome. Delete all lines if required.
-  - Bootstrap 
+# Naming the CSS framework is optional but welcome. Delete all lines if required.
+css:
+  - Bootstrap
   - Bulma
   - PostCSS
   - SCSS
   - Tailwind
   - Stylus
 
-archetype: # Describe the archetype (the appearance) of the theme. Optional but warmly recommended. Delete the inappropriate lines.
+# Describe the archetype (the appearance) of the theme. Optional but warmly recommended. Delete the inappropriate lines.
+archetype:
   - Blog
   - Documentation
   - Ecommerce
@@ -61,7 +72,8 @@ archetype: # Describe the archetype (the appearance) of the theme. Optional but 
   - Portfolio
   - Resume
 
-description: This is an amazing theme and this is a small description about it! # Describe the theme in a sentence
+# Describe the theme in a sentence
+description: This is an amazing theme and this is a small description about it!
 
 ---
 
