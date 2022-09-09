@@ -1,5 +1,5 @@
 ---
-title: "Roxo Eleventy | a digital agency template"
+title: "Roxo Eleventy"
 github: https://github.com/StaticMania/roxo-eleventy
 demo: https://roxo-eleventy.staticmania.com/
 
