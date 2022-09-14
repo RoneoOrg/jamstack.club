@@ -90,5 +90,8 @@
     <script type="text/javascript" src="{{ ($scriptsBundle | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
 
+  {{/*  Stats with Plausible  */}}
+  <script defer data-domain="jamstack.club" src="https://plausible.io/js/plausible.js"></script>
+
 </body>
 </html>
