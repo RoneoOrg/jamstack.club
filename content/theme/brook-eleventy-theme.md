@@ -26,9 +26,9 @@ Designed for a hyper focused blog. Made with the static site generator Eleventy 
 
 ## Features
 
-* Bootstrap 5 
-* Dev Server 
-* Minimizing and optimizing HTML and CSS output 
-* Automated jpg -> webP image generation 
+* Bootstrap 5
+* Dev Server
+* Minimizing and optimizing HTML and CSS output
+* Automated jpg -> webP image generation
 * Ready for Netlify
 * GitHub template
