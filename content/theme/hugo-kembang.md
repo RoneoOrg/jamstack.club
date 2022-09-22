@@ -1,6 +1,6 @@
 ---
 title: "Kembang"
-github: https://github.com/aznkh/kembang
+github: https://github.com/httpsecure/kembang
 demo: https://kembang-theme.netlify.app
 author: Aziz 
 date: 2022-08-24
@@ -12,7 +12,7 @@ css:
   - Bootstrap 
 archetype:
   - Blog
-description: This is an amazing theme !
+description: This is an amazing theme, made for blogger & built with bootstrap !
 ---
 
 ## Features
