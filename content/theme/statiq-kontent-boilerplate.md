@@ -1,7 +1,7 @@
 ---
 title: Statiq Kontent Boilerplate Kontent
 github: https://github.com/Kentico/kontent-boilerplate-statiq-net
-demo: https://kentico.github.io/kontent-boilerplate-statiq-net
+demo: https://kontent-ai.github.io/boilerplate-statiq-net/
 author: Kentico
 ssg:
   - Statiq

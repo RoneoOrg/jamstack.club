@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2015-08-21T04:20:04.000Z
 description: Blog theme powered by Jekyll.
-stale: true
+stale: false
 disabled: true
-disabled_reason: error checking demo url
+disabled_reason: demo url connection refused
 ---

@@ -4,7 +4,7 @@
 # Note that the screenshot and the Github Stars are automatically generated.
 
 # Enter the theme name here. No need to mention the SSG at this point.
-title: "Your Theme Name"
+title: Your Theme Name
 # This repo URL will be used to generate Github stats (Stars, Forks, Last Update)
 github: https://github.com/RoneoOrg/markdown
 # Make sure this links to a dedicated demo, and not a personal/business site. The demo url must use httpS.
