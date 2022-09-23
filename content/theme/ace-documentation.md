@@ -17,6 +17,8 @@ description: >-
   full search, Bootstrap components, and more.
 stale: false
 weight: 5
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # Ace documentation theme for Hugo
