@@ -1,7 +1,7 @@
 ---
 title: Bootstrap Theme
 github: https://github.com/razonyang/hugo-theme-bootstrap
-demo: https://hugo-theme-bootstrap.netlify.app/
+demo: https://hbs.razonyang.com/
 author: razonyang
 date: 2021-07-26T00:00:00.000Z
 ssg:

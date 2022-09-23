@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2014-05-23T19:47:51.000Z
 description: Port of Mdo's excellent theme to Hugo
-stale: false
+stale: true
 disabled: true
 disabled_reason: demo url not found
 ---

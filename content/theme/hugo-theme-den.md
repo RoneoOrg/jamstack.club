@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2018-07-15T13:29:45.000Z
 description: A Simple Theme for Hugo
-stale: true
+stale: false
 disabled: true
 disabled_reason: demo url not found
 ---

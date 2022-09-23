@@ -4,7 +4,7 @@ github: https://github.com/StaticMania/roxo-hugo
 demo: https://roxo-hugo.staticmania.com/
 author: StaticMania
 author_link: https://staticmania.com
-date: 2022-09-03
+date: 2022-09-03T00:00:00.000Z
 ssg:
   - Hugo
 cms:
@@ -15,7 +15,8 @@ archetype:
   - Business
   - Blog
 description: >-
-  Roxo Hugo is a digital agency Hugo theme for creative agencies, freelancers, graphic designers, photographers.
+  Roxo Hugo is a digital agency Hugo theme for creative agencies, freelancers,
+  graphic designers, photographers.
 stale: false
 ---
 

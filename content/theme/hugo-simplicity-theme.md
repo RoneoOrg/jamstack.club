@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2017-11-05T18:54:34.000Z
 description: Hugo theme.
-stale: false
+stale: true
 disabled: true
 disabled_reason: demo url not found
 ---

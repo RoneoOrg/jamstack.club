@@ -1,10 +1,10 @@
 ---
-title: "Brook"
+title: Brook
 github: https://github.com/holger1411/brook-dev
 demo: https://brooks-html-template.netlify.app/
 author: Holger Koenemann
 author_link: https://templatedeck.com
-date: 2022-10-21
+date: 2022-10-21T00:00:00.000Z
 ssg:
   - Eleventy
 cms:
@@ -18,6 +18,7 @@ archetype:
   - Portfolio
   - Business
 description: A Minimalistic Eleventy Blogging Theme
+stale: false
 ---
 
 # A clean and handcrafted Eleventy Blog Theme

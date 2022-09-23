@@ -10,7 +10,6 @@ ssg:
   - Hugo
 cms:
   - No CMS
-css:
 archetype:
   - Blog
   - Gallery
@@ -20,5 +19,9 @@ archetype:
 features:
   - drop-down menu
   - contact form
-description: "A featureful theme with a Blog section, a modern Landing page and several layouts: single sidebar on selected side, double sidebars, full screen, post list"
+description: >-
+  A featureful theme with a Blog section, a modern Landing page and several
+  layouts: single sidebar on selected side, double sidebars, full screen, post
+  list
+stale: false
 ---

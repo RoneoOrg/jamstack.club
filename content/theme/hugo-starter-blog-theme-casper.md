@@ -11,7 +11,7 @@ cms:
 archetype:
   - Blog
 description: A Hugo boilerplate for creating a blog site backed with NetlifyCMS.
-stale: false
+stale: true
 weight: 5
 ---
 

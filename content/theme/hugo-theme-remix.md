@@ -19,6 +19,7 @@ archetype:
   - Resume
 description: A landing page theme for Hugo, fully editable with Netlify CMS
 weight: 2
+stale: false
 ---
 
 # Remix, a theme for Hugo featuring Netlify CMS

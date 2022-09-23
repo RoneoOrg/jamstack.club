@@ -1,7 +1,7 @@
 ---
 title: Gesko
 github: https://github.com/P0WEX/Gesko
-demo: https://p0wex.github.io/Gesko/
+demo: https://davidebrie.github.io/Gesko/
 author: P0WEX
 date: 2021-06-06T00:00:00.000Z
 ssg:

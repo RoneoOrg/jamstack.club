@@ -13,8 +13,8 @@ archetype:
   - Blog
 date: 2021-08-29T16:08:35.000Z
 description: >-
-  A clean and modern Hugo blog theme focused on high speed.
-  Includes a contact form, newsletter, homepage slideshow and multiple authors.
+  A clean and modern Hugo blog theme focused on high speed. Includes a contact
+  form, newsletter, homepage slideshow and multiple authors.
 stale: false
 disabled: false
 disabled_reason: null

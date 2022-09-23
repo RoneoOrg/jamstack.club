@@ -1,27 +1,22 @@
 ---
-title: "Docsy"
+title: Docsy
 github: https://github.com/google/docsy
 demo: https://www.docsy.dev/
-
 author: Google
-
-date: 2022-07-06
-
+date: 2022-07-06T00:00:00.000Z
 ssg:
   - Hugo
-
 cms:
   - No CMS
-
 css:
-  - Bootstrap 
-
+  - Bootstrap
 archetype:
   - Documentation
   - Multi Purpose
-
-description: A powerful Hugo theme to build great documentation sites. Backed by Google inc.
-
+description: >-
+  A powerful Hugo theme to build great documentation sites. Backed by Google
+  inc.
+stale: false
 ---
 
 ## Features

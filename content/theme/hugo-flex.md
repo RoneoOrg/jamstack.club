@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2019-02-17T17:31:39.000Z
 description: A lightweight Hugo theme leveraging CSS Flexbox
-stale: false
+stale: true
 disabled: true
 disabled_reason: demo url not found
 ---

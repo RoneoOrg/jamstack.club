@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2019-01-03T09:47:08.000Z
 description: A Dark Theme for Hugo
-stale: true
+stale: false
 disabled: true
 disabled_reason: demo url not found
 ---

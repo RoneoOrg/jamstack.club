@@ -1,32 +1,27 @@
 ---
-title: "Roxo Eleventy"
+title: Roxo Eleventy
 github: https://github.com/StaticMania/roxo-eleventy
 demo: https://roxo-eleventy.staticmania.com/
-
 author: StaticMania
 author_link: https://github.com/StaticMania
-
-date: 2022-08-02
-
+date: 2022-08-02T00:00:00.000Z
 ssg:
   - Eleventy
-
 cms:
-  - No CMS # at least one cms is required. If your theme uses no CMS, please leave a line with "No CMS"
-
+  - No CMS
 css:
   - Bootstrap
-
-archetype: # Describe the archetype (the appearance) of the theme. Optional but warmly recommended. Delete the inappropriate lines.
+archetype:
   - Blog
   - Portfolio
   - Agency
   - Landing Page
   - Multi Purpose
   - Resume
-
-description: Roxo is a digital agency theme for creative agencies, freelancers, graphic designers, photographers.
-
+description: >-
+  Roxo is a digital agency theme for creative agencies, freelancers, graphic
+  designers, photographers.
+stale: false
 ---
 
 ## Presentation

@@ -10,7 +10,6 @@ ssg:
   - Hugo
 cms:
   - No CMS
-css:
 archetype:
   - Gallery
   - Landing Page
@@ -20,5 +19,8 @@ features:
   - Contact form
   - Testimonials
   - Newsletter subscription form
-description: "Designed for Data Scientists that wish to create and showcase project portfolios. Integrates with Blogdown, an R package for generating websites"
+description: >-
+  Designed for Data Scientists that wish to create and showcase project
+  portfolios. Integrates with Blogdown, an R package for generating websites
+stale: false
 ---

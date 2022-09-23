@@ -10,7 +10,6 @@ ssg:
   - Hugo
 cms:
   - No CMS
-css:
 archetype:
   - Blog
   - Gallery
@@ -36,7 +35,11 @@ features:
   - Twemoji
   - Images Gallery
   - Internationalization
-description: "The goal of DoIt theme is to create a powerful and easy-to-use Hugo theme, so you can go straight into your blog content creation and just do it without worrying about the complex technical details."
+description: >-
+  The goal of DoIt theme is to create a powerful and easy-to-use Hugo theme, so
+  you can go straight into your blog content creation and just do it without
+  worrying about the complex technical details.
+stale: false
 ---
 
 ## Why choose DoIt

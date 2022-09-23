@@ -17,13 +17,11 @@ description: >-
   full search, Bootstrap components, and more.
 stale: false
 weight: 5
-disabled: true
-disabled_reason: demo url not found
 ---
 
 # Ace documentation theme for Hugo
 
-Ace documentation offers a feature-complete documentation theme for Hugo, powered by Bootstrap 4. 
+Ace documentation offers a feature-complete documentation theme for Hugo, powered by Bootstrap 4.
 
 ## Features
 

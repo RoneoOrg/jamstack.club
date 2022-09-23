@@ -10,4 +10,6 @@ cms:
 date: 2019-11-07T00:00:00.000Z
 description: Whisper is a minimal documentation theme for Hugo.
 stale: false
+disabled: false
+disabled_reason: ''
 ---

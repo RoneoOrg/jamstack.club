@@ -1,35 +1,24 @@
 ---
-
-# To submit a new theme, just edit this file and delete inappropriate suggestions.
-# Note that the screenshot and the Github Stars are automatically generated.
-
-title: "Hugo Liftoff" # Enter the theme name here. No need to mention the SSG at this point.
-github: https://github.com/wjh18/hugo-liftoff # This repo URL will be used to generate Github stats (Stars, Forks, Last Update)
-demo: https://hugo-liftoff.netlify.app # Make sure this links to a dedicated demo, and not a personal/business site. The demo url must use httpS.
-
-author: Will J. Holmes # The name or nickname of the theme's author.
-author_link: https://www.wjholmes.com # The personal site of the author, or a Github/Gitlab/Twitter link, for a proper acknowledgement. Delete this line if none is available.
-
-date: 2022-05-22 # Enter the date you submitted the theme in the format YYYY-MM-DD.
-
+title: Hugo Liftoff
+github: https://github.com/wjh18/hugo-liftoff
+demo: https://hugo-liftoff.netlify.app
+author: Will J. Holmes
+author_link: https://www.wjholmes.com
+date: 2022-05-22T00:00:00.000Z
 ssg:
   - Hugo
-
 cms:
   - NetlifyCMS
-
-css: # Naming the CSS framework is optional but welcome. Delete all lines if required.
+css:
   - PostCSS
   - SCSS
-
-archetype: # Describe the archetype (the appearance) of the theme. Optional but warmly recommended. Delete the inappropriate lines.
+archetype:
   - Blog
   - Portfolio
   - Personal
-
-description: A customizable, SEO-optimized blog and portfolio theme with a modern design. # Describe the theme in a sentence
-
+description: A customizable, SEO-optimized blog and portfolio theme with a modern design.
 weight: 2
+stale: false
 ---
 
 # Hugo Liftoff
