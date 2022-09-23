@@ -11,7 +11,7 @@
   command = "npm install && npm run deploy"
 
 [context.branch-deploy]
-  command = "npm install && npm run deploy:branch"
+  command = "rm -rf public/ && rm -rf data/themes.json && npm install && npm run deploy:branch"
 
 [[headers]]
   for = "/index.json"
