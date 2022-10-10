@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Point
 github: https://github.com/teaware/gatsby-starter-point
-demo: https://gatsby-starter-point.netlify.com/
+demo: https://gatsby-starter-point.netlify.app/
 author: George Brown
 ssg:
   - Gatsby

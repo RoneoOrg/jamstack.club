@@ -1,7 +1,7 @@
 ---
 title: Gatsby Universal
 github: https://github.com/fabe/gatsby-universal
-demo: https://gatsby-universal.netlify.com/
+demo: https://gatsby-universal.netlify.app/
 author: Fabian Schultz
 ssg:
   - Gatsby

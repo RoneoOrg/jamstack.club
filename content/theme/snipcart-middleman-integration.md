@@ -1,7 +1,7 @@
 ---
 title: Snipcart Middleman
 github: https://github.com/snipcart/snipcart-middleman-integration
-demo: https://snipcart-middleman.netlify.com/
+demo: https://snipcart-middleman.netlify.app/
 author: Snipcart
 ssg:
   - Middleman

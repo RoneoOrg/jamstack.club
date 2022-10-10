@@ -1,7 +1,7 @@
 ---
 title: Gatsby Fashion Portfolio
 github: https://github.com/shobhitchittora/gatsby-starter-fashion-portfolio
-demo: https://gatsby-starter-fashion-portfolio.netlify.com/
+demo: https://gatsby-starter-fashion-portfolio.netlify.app/
 author: Shobhit Chittora
 ssg:
   - Gatsby

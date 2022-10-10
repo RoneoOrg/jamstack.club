@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Firebase
 github: https://github.com/muhajirdev/gatsby-starter-firebase
-demo: https://gatsby-starter-firebase.netlify.com/
+demo: https://gatsby-starter-firebase.netlify.app/
 author: Muhammad Muhajir
 ssg:
   - Gatsby

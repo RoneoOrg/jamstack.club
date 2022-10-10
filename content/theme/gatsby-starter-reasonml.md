@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Reasonml
 github: https://github.com/iwilsonq/gatsby-starter-reasonml
-demo: https://hopeful-keller-943d65.netlify.com/
+demo: https://hopeful-keller-943d65.netlify.app/
 author: Ian Wilson
 ssg:
   - Gatsby

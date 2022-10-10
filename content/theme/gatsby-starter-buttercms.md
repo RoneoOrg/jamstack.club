@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Buttercms
 github: https://github.com/ButterCMS/gatsby-starter-buttercms
-demo: https://gatsby-starter-buttercms.netlify.com/
+demo: https://gatsby-starter-buttercms.netlify.app/
 author: ButterCMS
 ssg:
   - Gatsby

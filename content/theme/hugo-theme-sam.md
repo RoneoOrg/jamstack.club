@@ -1,7 +1,7 @@
 ---
 title: Call me Sam
 github: https://github.com/victoriadrake/hugo-theme-sam
-demo: https://hugo-sam.netlify.com
+demo: https://hugo-sam.netlify.app
 author: Victoria Drake
 ssg:
   - Hugo

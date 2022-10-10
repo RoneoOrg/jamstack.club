@@ -1,7 +1,7 @@
 ---
 title: Ueno Gatsby Starter
 github: https://github.com/ueno-llc/ueno-gatsby-starter
-demo: https://create-ueno-app.netlify.com/
+demo: https://create-ueno-app.netlify.app/
 author: Ueno
 ssg:
   - Gatsby

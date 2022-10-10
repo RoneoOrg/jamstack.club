@@ -1,7 +1,7 @@
 ---
 title: Hero
 github: https://github.com/JugglerX/hugo-hero-theme
-demo: https://hugo-hero.netlify.com/
+demo: https://hugo-hero.netlify.app/
 author: Robert Austin
 ssg:
   - Hugo

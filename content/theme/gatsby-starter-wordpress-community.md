@@ -1,7 +1,7 @@
 ---
 title: Gatsby Wordpress Community
 github: https://github.com/pablovila/gatsby-starter-wordpress-community
-demo: https://gatsby-starter-wordpress-community.netlify.com/
+demo: https://gatsby-starter-wordpress-community.netlify.app/
 author: Pablo Vila
 ssg:
   - Gatsby

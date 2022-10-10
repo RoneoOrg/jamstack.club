@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Traveler Blog
 github: https://github.com/QingpingMeng/gatsby-starter-traveler-blog
-demo: https://traveler-blog.netlify.com
+demo: https://traveler-blog.netlify.app
 author: Qingping Meng
 ssg:
   - Gatsby

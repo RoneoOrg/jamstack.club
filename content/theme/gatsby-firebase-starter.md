@@ -1,7 +1,7 @@
 ---
 title: Gatsby Firebase Starter
 github: https://github.com/ovidiumihaibelciug/gatsby-firebase-starter
-demo: https://gatsby-firebase-starter.netlify.com/
+demo: https://gatsby-firebase-starter.netlify.app/
 author: Belciug Ovidiu-Mihai
 ssg:
   - Gatsby

@@ -1,7 +1,7 @@
 ---
 title: Gatsby Casper
 github: https://github.com/scttcper/gatsby-casper
-demo: https://gatsby-casper.netlify.com
+demo: https://gatsby-casper.netlify.app
 author: Scott Cooper
 ssg:
   - Gatsby

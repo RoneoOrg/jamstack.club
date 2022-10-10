@@ -1,7 +1,7 @@
 ---
 title: PaperCSS
 github: https://github.com/zwbetz-gh/papercss-hugo-theme
-demo: https://papercss-hugo-theme.netlify.com/
+demo: https://papercss-hugo-theme.netlify.app/
 author: Zachary Betz
 ssg:
   - Hugo

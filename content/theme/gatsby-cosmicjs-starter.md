@@ -1,7 +1,7 @@
 ---
 title: Cosmic Gatsby Starter
 github: https://github.com/cosmicjs/gatsby-starter
-demo: https://cosmicjs-gatsby-starter.netlify.com/
+demo: https://cosmicjs-gatsby-starter.netlify.app/
 author: Cosmic
 ssg:
   - Gatsby

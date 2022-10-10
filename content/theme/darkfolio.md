@@ -1,7 +1,7 @@
 ---
 title: Darkfolio
 github: https://github.com/itsnwa/darkfolio
-demo: https://darkfolio.netlify.com/
+demo: https://darkfolio.netlify.app/
 author: Nichlas W. Andersen
 ssg:
   - Gridsome

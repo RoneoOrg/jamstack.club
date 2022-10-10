@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Wordpress
 github: https://github.com/GatsbyCentral/gatsby-starter-wordpress
-demo: https://gatsby-starter-wordpress.netlify.com/
+demo: https://gatsby-starter-wordpress.netlify.app/
 author: Gatsby Central
 ssg:
   - Gatsby

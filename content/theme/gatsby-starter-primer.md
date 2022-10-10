@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Primer
 github: https://github.com/thomaswangio/gatsby-starter-primer
-demo: https://gatsby-starter-primer.netlify.com/
+demo: https://gatsby-starter-primer.netlify.app/
 author: Thomas Wang
 ssg:
   - Gatsby

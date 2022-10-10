@@ -1,7 +1,7 @@
 ---
 title: Gatsyb Mdb React
 github: https://github.com/jjcav84/mdbreact-gatsby-starter
-demo: https://gatsbystartermdb.netlify.com/
+demo: https://gatsbystartermdb.netlify.app/
 author: Jacob Cavazos
 ssg:
   - Gatsby

@@ -1,7 +1,7 @@
 ---
 title: Jamdocs
 github: https://github.com/samuelhorn/jamdocs
-demo: https://jamdocs.netlify.com/
+demo: https://jamdocs.netlify.app/
 author: Samuel Horn af Rantzien
 ssg:
   - Gridsome

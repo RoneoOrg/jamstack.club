@@ -1,7 +1,7 @@
 ---
 title: Gatsby Documentation Starter
 github: https://github.com/whoisryosuke/gatsby-documentation-starter
-demo: https://gatsby-documentation-starter.netlify.com/
+demo: https://gatsby-documentation-starter.netlify.app/
 author: Ryosuke
 ssg:
   - Gatsby

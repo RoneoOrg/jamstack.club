@@ -1,7 +1,7 @@
 ---
 title: Eleventyone
 github: https://github.com/philhawksworth/eleventyone
-demo: https://eleventyone.netlify.com/
+demo: https://eleventyone.netlify.app/
 author: 11ty
 ssg:
   - Eleventy

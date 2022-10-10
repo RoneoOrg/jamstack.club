@@ -1,7 +1,7 @@
 ---
 title: Gatsby Simple Contentful Starter
 github: https://github.com/cwlsn/gatsby-simple-contentful-starter
-demo: https://gatsby-simple-contentful-starter.netlify.com/
+demo: https://gatsby-simple-contentful-starter.netlify.app/
 author: Connor Wilson
 ssg:
   - Gatsby

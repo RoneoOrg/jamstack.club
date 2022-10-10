@@ -1,7 +1,7 @@
 ---
 title: Gatsby Pocket
 github: https://github.com/molebox/gatsby-theme-pocket
-demo: https://gatsby-theme-pocket-example.netlify.com/articleIndex/
+demo: https://gatsby-theme-pocket-example.netlify.app/articleIndex/
 author: Hungry Bear Studio
 ssg:
   - Gatsby

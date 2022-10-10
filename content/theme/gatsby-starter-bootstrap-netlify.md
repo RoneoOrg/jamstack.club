@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Bootstrap Netlify
 github: https://github.com/konsumer/gatsby-starter-bootstrap-netlify
-demo: https://gatsby-starter-bootstrap-netlify.netlify.com/
+demo: https://gatsby-starter-bootstrap-netlify.netlify.app/
 author: David Konsumer
 ssg:
   - Gatsby

@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Portfolio
 github: https://github.com/LekovicMilos/gatsby-starter-portfolio
-demo: https://relaxed-bhaskara-5abd0a.netlify.com/
+demo: https://relaxed-bhaskara-5abd0a.netlify.app/
 author: Milos Lekovic
 ssg:
   - Gatsby

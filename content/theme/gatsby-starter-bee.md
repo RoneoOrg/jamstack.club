@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Bee
 github: https://github.com/JaeYeopHan/gatsby-starter-bee
-demo: https://gatsby-starter-bee.netlify.com/
+demo: https://gatsby-starter-bee.netlify.app/
 author: JaeYeopHan
 ssg:
   - Gatsby

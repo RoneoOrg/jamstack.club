@@ -1,7 +1,7 @@
 ---
 title: Gatsby Tailwindcss Sass Starter
 github: https://github.com/durianstack/gatsby-tailwindcss-sass-starter
-demo: https://gatsby-tailwindcss-sass-starter-demo.netlify.com/
+demo: https://gatsby-tailwindcss-sass-starter-demo.netlify.app/
 author: null
 ssg:
   - Gatsby

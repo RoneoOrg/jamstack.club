@@ -2,7 +2,7 @@
 title: Nuxt Netlify CMS Boilerplate
 github: https://github.com/xdesro/nuxt-netlify-cms-starter
 author: xdesro
-demo: https://nuxt-netlify-cms-starter.netlify.com
+demo: https://nuxt-netlify-cms-starter.netlify.app
 date: 2020-06-03T00:00:00.000Z
 ssg:
   - Nuxt

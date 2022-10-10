@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Mate
 github: https://github.com/EmaSuriano/gatsby-starter-mate
-demo: https://gatsby-starter-mate.netlify.com/
+demo: https://gatsby-starter-mate.netlify.app/
 author: Emanuel Suriano
 ssg:
   - Gatsby

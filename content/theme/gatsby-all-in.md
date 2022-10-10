@@ -1,7 +1,7 @@
 ---
 title: Gatsby All In
 github: https://github.com/Gherciu/gatsby-all-in
-demo: https://gatsby-all-in.netlify.com/
+demo: https://gatsby-all-in.netlify.app/
 author: Gherciu Gheorghe
 ssg:
   - Gatsby

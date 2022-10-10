@@ -1,7 +1,7 @@
 ---
 title: Hexo Material Netlify
 github: https://github.com/lunaceee/hexo-material-netlify
-demo: https://hexo-material-cms.netlify.com/
+demo: https://hexo-material-cms.netlify.app/
 author: Luna Yu
 ssg:
   - Hexo

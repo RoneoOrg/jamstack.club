@@ -1,7 +1,7 @@
 ---
 title: Vanilla Bootstrap
 github: https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme
-demo: https://vanilla-bootstrap-hugo-theme.netlify.com/
+demo: https://vanilla-bootstrap-hugo-theme.netlify.app/
 author: Zachary Betz
 ssg:
   - Hugo

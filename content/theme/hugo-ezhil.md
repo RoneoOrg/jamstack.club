@@ -1,7 +1,7 @@
 ---
 title: Ezhil
 github: https://github.com/vividvilla/ezhil
-demo: https://ezhil-hugo.netlify.com/
+demo: https://ezhil-hugo.netlify.app/
 author: Vivek R
 ssg:
   - Hugo

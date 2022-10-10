@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Organization
 github: https://github.com/geocine/gatsby-starter-organization
-demo: https://gatsby-starter-organization.netlify.com/
+demo: https://gatsby-starter-organization.netlify.app/
 author: Aivan Monceller
 ssg:
   - Gatsby

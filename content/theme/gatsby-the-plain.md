@@ -1,7 +1,7 @@
 ---
 title: The Plain Gatsby
 github: https://github.com/wangonya/the-plain-gatsby
-demo: https://the-plain-gatsby.netlify.com/
+demo: https://the-plain-gatsby.netlify.app/
 author: Kinyanjui Wangonya
 ssg:
   - Gatsby

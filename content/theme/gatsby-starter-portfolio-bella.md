@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Portfolio Bella
 github: https://github.com/LekoArts/gatsby-starter-portfolio-bella
-demo: https://portfolio-bella.netlify.com/
+demo: https://portfolio-bella.netlify.app/
 author: Lennart
 ssg:
   - Gatsby

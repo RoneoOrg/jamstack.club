@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Blog Mdx
 github: https://github.com/hagnerd/gatsby-starter-blog-mdx
-demo: https://gatsby-starter-blog-mdx-demo.netlify.com/
+demo: https://gatsby-starter-blog-mdx-demo.netlify.app/
 author: Matt Hagner
 ssg:
   - Gatsby

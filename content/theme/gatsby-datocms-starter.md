@@ -1,7 +1,7 @@
 ---
 title: Gatsby Datocms Starter
 github: https://github.com/brohlson/gatsby-datocms-starter
-demo: https://gatsby-datocms-starter.netlify.com/
+demo: https://gatsby-datocms-starter.netlify.app/
 author: Chase Ohlson
 ssg:
   - Gatsby

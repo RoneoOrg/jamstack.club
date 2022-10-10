@@ -1,7 +1,7 @@
 ---
 title: Gatsby Apollo Netlify
 github: https://github.com/piducancore/gatsby-starter-apollo-netlify
-demo: https://gatsby-starter-apollo.netlify.com/
+demo: https://gatsby-starter-apollo.netlify.app/
 author: piducancore
 ssg:
   - Gatsby

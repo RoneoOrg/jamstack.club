@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Julia
 github: https://github.com/niklasmtj/gatsby-starter-julia
-demo: https://gatsby-starter-julia.netlify.com/
+demo: https://gatsby-starter-julia.netlify.app/
 author: niklasmtj
 ssg:
   - Gatsby

@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Krisp
 github: https://github.com/mohanmonu777/gatsby-starter-krisp
-demo: https://gatsby-starter-krisp.netlify.com/
+demo: https://gatsby-starter-krisp.netlify.app/
 author: MOhan
 ssg:
   - Gatsby

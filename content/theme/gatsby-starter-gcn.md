@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter GCN
 github: https://github.com/ryanwiemer/gatsby-starter-gcn
-demo: https://gcn.netlify.com/
+demo: https://gcn.netlify.app/
 author: Ryan Wiemer
 ssg:
   - Gatsby

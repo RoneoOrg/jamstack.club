@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Storybook
 github: https://github.com/markoradak/gatsby-starter-storybook
-demo: https://gatsby-starter-storybook.netlify.com/
+demo: https://gatsby-starter-storybook.netlify.app/
 author: Marko Radak
 ssg:
   - Gatsby

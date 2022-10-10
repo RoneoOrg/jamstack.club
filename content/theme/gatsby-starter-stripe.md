@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Stripe
 github: https://github.com/brxck/gatsby-starter-stripe
-demo: https://gatsby-starter-stripe.netlify.com/
+demo: https://gatsby-starter-stripe.netlify.app/
 author: Brock McElroy
 ssg:
   - Gatsby

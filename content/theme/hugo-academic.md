@@ -1,7 +1,7 @@
 ---
 title: Academic
 github: https://github.com/wowchemy/wowchemy-hugo-themes
-demo: https://academic-demo.netlify.com/
+demo: https://academic-demo.netlify.app/
 author: Wowchemy
 ssg:
   - Hugo

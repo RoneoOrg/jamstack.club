@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Carraway
 github: https://github.com/endymion1818/gatsby-starter-carraway
-demo: https://gatsby-starter-carraway.netlify.com/
+demo: https://gatsby-starter-carraway.netlify.app/
 author: Ben Read
 ssg:
   - Gatsby

@@ -2,7 +2,7 @@
 title: Hugo starter Kaldi
 github: https://github.com/netlify-templates/one-click-hugo-cms
 author: netlify-templates
-demo: https://master-template-one-click-hugo-cms.netlify.com/
+demo: https://master-template-one-click-hugo-cms.netlify.app/
 date: 2020-06-03T00:00:00.000Z
 ssg:
   - Hugo

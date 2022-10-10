@@ -1,7 +1,7 @@
 ---
 title: Basic
 github: https://github.com/siegerts/hugo-theme-basic
-demo: https://hugo-theme-basic.netlify.com/
+demo: https://hugo-theme-basic.netlify.app/
 author: Stephen Siegert
 ssg:
   - Hugo

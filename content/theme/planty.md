@@ -1,7 +1,7 @@
 ---
 title: Planty
 github: https://github.com/snipcart/stackbit-theme-planty
-demo: https://stackbit-theme-planty.netlify.com
+demo: https://stackbit-theme-planty.netlify.app
 author: Snipcart
 ssg:
   - Unibit

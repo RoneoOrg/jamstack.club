@@ -1,7 +1,7 @@
 ---
 title: Skeleventy
 github: https://github.com/josephdyer/skeleventy
-demo: https://skeleventy.netlify.com/
+demo: https://skeleventy.netlify.app/
 author: Joseph Dyer
 ssg:
   - Eleventy

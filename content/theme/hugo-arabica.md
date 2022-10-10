@@ -1,7 +1,7 @@
 ---
 title: Arabica
 github: https://github.com/nirocfz/arabica
-demo: https://arabica.netlify.com/
+demo: https://arabica.netlify.app/
 author: Chen Fangzhou
 ssg:
   - Hugo

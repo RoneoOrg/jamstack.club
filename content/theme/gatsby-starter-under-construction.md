@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Under Construction
 github: https://github.com/robinmetral/gatsby-starter-under-construction
-demo: https://gatsby-starter-under-construction.netlify.com/
+demo: https://gatsby-starter-under-construction.netlify.app/
 author: Robin Métral
 ssg:
   - Gatsby

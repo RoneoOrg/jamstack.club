@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Landing Page
 github: https://github.com/gillkyle/gatsby-starter-landing-page
-demo: https://gatsby-starter-landing-page.netlify.com/
+demo: https://gatsby-starter-landing-page.netlify.app/
 author: Kyle Gill
 ssg:
   - Gatsby

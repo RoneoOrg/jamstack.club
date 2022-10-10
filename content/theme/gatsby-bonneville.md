@@ -1,7 +1,7 @@
 ---
 title: Bonneville
 github: https://github.com/bagseye/bonneville
-demo: https://bonneville.netlify.com/
+demo: https://bonneville.netlify.app/
 author: Morgan Baker
 ssg:
   - Gatsby

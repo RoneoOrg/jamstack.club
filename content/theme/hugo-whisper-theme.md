@@ -1,7 +1,7 @@
 ---
 title: Whisper
 github: https://github.com/JugglerX/hugo-whisper-theme
-demo: https://hugo-whisper.netlify.com/
+demo: https://hugo-whisper.netlify.app/
 author: Robert Austin
 ssg:
   - Hugo

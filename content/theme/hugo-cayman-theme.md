@@ -1,7 +1,7 @@
 ---
 title: Cayman
 github: https://github.com/zwbetz-gh/cayman-hugo-theme
-demo: https://cayman-hugo-theme.netlify.com/
+demo: https://cayman-hugo-theme.netlify.app/
 author: Zachary Betz
 ssg:
   - Hugo

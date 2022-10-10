@@ -1,7 +1,7 @@
 ---
 title: Gatsby Contentful Typescript Starter
 github: https://github.com/fhavrlent/gatsby-contentful-typescript-starter
-demo: https://happy-pare-dff451.netlify.com/
+demo: https://happy-pare-dff451.netlify.app/
 author: Filip Havrlent
 ssg:
   - Gatsby

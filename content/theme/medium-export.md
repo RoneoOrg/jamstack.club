@@ -1,7 +1,7 @@
 ---
 title: Medium Export
 github: https://github.com/philhawksworth/medium-export
-demo: https://rss-jamstack.netlify.com/
+demo: https://rss-jamstack.netlify.app/
 author: Phil Hawksworth
 ssg:
   - Eleventy

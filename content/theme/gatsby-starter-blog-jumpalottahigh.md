@@ -1,7 +1,7 @@
 ---
 title: Gatsby Blog Jumpalottahigh
 github: https://github.com/jumpalottahigh/gatsby-starter-blog-jumpalottahigh
-demo: https://gatsby-starter-blog-jumpalottahigh.netlify.com/
+demo: https://gatsby-starter-blog-jumpalottahigh.netlify.app/
 author: Georgi Yanev
 ssg:
   - Gatsby

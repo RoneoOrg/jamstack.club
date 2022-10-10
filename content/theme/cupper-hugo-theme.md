@@ -1,7 +1,7 @@
 ---
 title: Cupper
 github: https://github.com/zwbetz-gh/cupper-hugo-theme
-demo: https://cupper-hugo-theme.netlify.com/
+demo: https://cupper-hugo-theme.netlify.app/
 author: Zwbetz-gh
 ssg:
   - Hugo

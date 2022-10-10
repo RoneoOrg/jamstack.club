@@ -1,7 +1,7 @@
 ---
 title: Gatsby Personal Starter Blog
 github: https://github.com/thomaswangio/gatsby-personal-starter-blog
-demo: https://gatsby-personal-starter-blog.netlify.com/
+demo: https://gatsby-personal-starter-blog.netlify.app/
 author: Thomas Wang
 ssg:
   - Gatsby

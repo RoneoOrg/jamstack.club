@@ -1,7 +1,7 @@
 ---
 title: Engimo
 github: https://github.com/achary/engimo
-demo: https://engimo.netlify.com/
+demo: https://engimo.netlify.app/
 author: Adam Charytoniuk
 ssg:
   - Hugo

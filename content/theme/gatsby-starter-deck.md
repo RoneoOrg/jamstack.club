@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Deck
 github: https://github.com/fabe/gatsby-starter-deck
-demo: https://gatsby-deck.netlify.com
+demo: https://gatsby-deck.netlify.app
 author: Fabian Schultz
 ssg:
   - Gatsby

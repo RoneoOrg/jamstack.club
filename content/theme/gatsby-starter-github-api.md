@@ -1,7 +1,7 @@
 ---
 title: Gatsby Github API
 github: https://github.com/lundgren2/gatsby-starter-github-api
-demo: https://gatsby-starter-github-api.netlify.com/
+demo: https://gatsby-starter-github-api.netlify.app/
 author: Tobias Lundgren
 ssg:
   - Gatsby

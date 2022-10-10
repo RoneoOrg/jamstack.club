@@ -1,7 +1,7 @@
 ---
 title: Cape
 github: https://github.com/juhi-trivedi/cape
-demo: https://cape.netlify.com/
+demo: https://cape.netlify.app/
 author: Juhi
 ssg:
   - Gatsby

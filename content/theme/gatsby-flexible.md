@@ -1,7 +1,7 @@
 ---
 title: Flexible Gatsby
 github: https://github.com/wangonya/flexible-gatsby
-demo: https://flexible-gatsby.netlify.com/
+demo: https://flexible-gatsby.netlify.app/
 author: Kinyanjui Wangonya
 ssg:
   - Gatsby

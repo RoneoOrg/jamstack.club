@@ -1,7 +1,7 @@
 ---
 title: Gray
 github: https://github.com/ronv/gray
-demo: https://gray-jekyll.netlify.com
+demo: https://gray-jekyll.netlify.app
 author: Ronalds Vilcins
 date: 2019-11-09T00:00:00.000Z
 ssg:

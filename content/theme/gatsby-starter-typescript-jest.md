@@ -1,7 +1,7 @@
 ---
 title: Gatsby Typescript Jest
 github: https://github.com/denningk/gatsby-starter-typescript-jest
-demo: https://gatsby-starter-typescript-jest.netlify.com/
+demo: https://gatsby-starter-typescript-jest.netlify.app/
 author: Keith Denning
 ssg:
   - Gatsby

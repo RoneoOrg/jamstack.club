@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Paperbase
 github: https://github.com/willcode4food/gatsby-starter-paperbase
-demo: https://gatsby-starter-paperbase.netlify.com/
+demo: https://gatsby-starter-paperbase.netlify.app/
 author: Marc Arbesman
 ssg:
   - Gatsby

@@ -1,7 +1,7 @@
 ---
 title: OneShopper
 github: https://github.com/rohitguptab/OneShopper
-demo: https://oneshopper.netlify.com/
+demo: https://oneshopper.netlify.app/
 author: Rohit Gupta
 ssg:
   - Gatsby

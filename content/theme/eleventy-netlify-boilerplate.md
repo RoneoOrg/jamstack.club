@@ -1,7 +1,7 @@
 ---
 title: Eleventy NetlifyCMS Boilerplate
 github: https://github.com/danurbanowicz/eleventy-netlify-boilerplate
-demo: https://eleventy-netlify-boilerplate.netlify.com/
+demo: https://eleventy-netlify-boilerplate.netlify.app/
 author: Dan Urbanowicz
 ssg:
   - Eleventy

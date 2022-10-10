@@ -1,7 +1,7 @@
 ---
 title: Eleventy Minimal Blog
 github: https://github.com/arpitbatra123/eleventy-blog-mnml
-demo: https://eleventy-blog-mnml.netlify.com/
+demo: https://eleventy-blog-mnml.netlify.app/
 author: Arpit Batra
 ssg:
   - Eleventy

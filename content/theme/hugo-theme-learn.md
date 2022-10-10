@@ -1,7 +1,7 @@
 ---
 title: Hugo Learn Theme
 github: https://github.com/matcornic/hugo-theme-learn
-demo: https://learn.netlify.com/en/
+demo: https://learn.netlify.app/en/
 author: matcornic
 ssg:
   - Hugo

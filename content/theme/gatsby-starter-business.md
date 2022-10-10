@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Business
 github: https://github.com/v4iv/gatsby-starter-business
-demo: https://gatsby-starter-business.netlify.com/
+demo: https://gatsby-starter-business.netlify.app/
 author: Vaibhav Sharma
 ssg:
   - Gatsby

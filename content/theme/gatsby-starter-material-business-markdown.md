@@ -1,7 +1,7 @@
 ---
 title: Gatsby Material Business Markdown
 github: https://github.com/ANOUN/gatsby-starter-material-business-markdown
-demo: https://gatsby-starter-material-business-markdown.netlify.com/
+demo: https://gatsby-starter-material-business-markdown.netlify.app/
 author: ANOUN
 ssg:
   - Gatsby

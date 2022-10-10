@@ -1,7 +1,7 @@
 ---
 title: Directus Metalsmith Snipcart
 github: https://github.com/snipcart/directus-metalsmith-snipcart
-demo: https://snipcart-directus-metalsmith.netlify.com
+demo: https://snipcart-directus-metalsmith.netlify.app
 author: Maxime Laboissonniere
 ssg:
   - Metalsmith
@@ -26,4 +26,4 @@ Learn what API-first, decoupled CMS are and how to build a web app with:
 
 > [Read full tutorial](https://snipcart.com/blog/intro-api-first-headless-cms-directus)
 
-> [See live demo](https://snipcart-directus-metalsmith.netlify.com/)
+> [See live demo](https://snipcart-directus-metalsmith.netlify.app/)

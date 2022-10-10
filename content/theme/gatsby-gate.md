@@ -1,7 +1,7 @@
 ---
 title: Gate
 github: https://github.com/sarasate/gate
-demo: https://gatejs.netlify.com/
+demo: https://gatejs.netlify.app/
 author: Sarasate
 ssg:
   - Gatsby

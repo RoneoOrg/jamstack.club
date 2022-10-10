@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Interviews
 github: https://github.com/rmagon/gatsby-starter-interviews
-demo: https://gatsby-starter-interviews.netlify.com/
+demo: https://gatsby-starter-interviews.netlify.app/
 author: Rachit Magon
 ssg:
   - Gatsby

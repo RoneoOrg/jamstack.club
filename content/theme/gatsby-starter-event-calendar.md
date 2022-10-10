@@ -1,7 +1,7 @@
 ---
 title: Gatsby Event Calendar
 github: https://github.com/EmaSuriano/gatsby-starter-event-calendar
-demo: https://gatsby-starter-event-calendar.netlify.com/
+demo: https://gatsby-starter-event-calendar.netlify.app/
 author: Emanuel Suriano
 ssg:
   - Gatsby

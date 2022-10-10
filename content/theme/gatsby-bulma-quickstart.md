@@ -1,7 +1,7 @@
 ---
 title: Gatsby Bulma Quickstart
 github: https://github.com/amandeepmittal/gatsby-bulma-quickstart
-demo: https://tender-raman-99e09b.netlify.com/
+demo: https://tender-raman-99e09b.netlify.app/
 author: Aman Mittal
 ssg:
   - Gatsby

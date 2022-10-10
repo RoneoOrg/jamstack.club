@@ -1,7 +1,7 @@
 ---
 title: Gatsby London
 github: https://github.com/ImedAdel/gatsby-london
-demo: https://gatsby-london.netlify.com/
+demo: https://gatsby-london.netlify.app/
 author: Imed Adel
 ssg:
   - Gatsby

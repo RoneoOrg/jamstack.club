@@ -1,7 +1,7 @@
 ---
 title: Gatsby Contentful Blog and Portfolio
 github: https://github.com/escapemanuele/gatsby-contentful-blog-portfolio
-demo: https://gatsby-contentful-portfolio-blog.netlify.com/
+demo: https://gatsby-contentful-portfolio-blog.netlify.app/
 author: Emanuele Buccelli
 ssg:
   - Gatsby

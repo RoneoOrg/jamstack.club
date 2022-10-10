@@ -1,7 +1,7 @@
 ---
 title: MyClicks
 github: https://github.com/himali-patel/MyClicks
-demo: https://myclicks.netlify.com
+demo: https://myclicks.netlify.app
 author: https://github.com/himali-patel
 ssg:
   - Gatsby

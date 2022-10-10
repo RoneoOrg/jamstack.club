@@ -2,7 +2,7 @@
 title: Nuxt Tailwind Netlify CMS Starter
 github: https://github.com/gomah/bluise
 author: gomah
-demo: https://bluise.netlify.com
+demo: https://bluise.netlify.app
 date: 2020-06-03T00:00:00.000Z
 ssg:
   - Nuxt

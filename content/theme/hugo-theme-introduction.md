@@ -1,7 +1,7 @@
 ---
 title: Introduction
 github: https://github.com/victoriadrake/hugo-theme-introduction
-demo: https://hugo-introduction.netlify.com/
+demo: https://hugo-introduction.netlify.app/
 author: Victoria Drake
 ssg:
   - Hugo

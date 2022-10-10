@@ -1,7 +1,7 @@
 ---
 title: Gatsby Craftcms Barebones
 github: https://github.com/frankievalentine/gatsby-craftcms-barebones
-demo: https://gatsby-craftcms-barebones.netlify.com/
+demo: https://gatsby-craftcms-barebones.netlify.app/
 author: Frankie Valentine
 ssg:
   - Gatsby

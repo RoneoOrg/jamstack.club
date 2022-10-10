@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Notes
 github: https://github.com/patricoferris/gatsby-starter-notes
-demo: https://gatsby-starter-notes.netlify.com/
+demo: https://gatsby-starter-notes.netlify.app/
 author: Patrick Ferris
 ssg:
   - Gatsby

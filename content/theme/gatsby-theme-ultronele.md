@@ -1,7 +1,7 @@
 ---
 title: Ultronele eLearning
 github: https://github.com/runbytech/gatsby-theme-ultronele
-demo: https://ultronele.netlify.com/
+demo: https://ultronele.netlify.app/
 author: lwz7512
 ssg:
   - Gatsby

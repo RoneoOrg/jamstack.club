@@ -1,7 +1,7 @@
 ---
 title: Dopetrope
 github: https://github.com/curtiscde/hugo-theme-dopetrope
-demo: https://hugo-theme-dopetrope.netlify.com/
+demo: https://hugo-theme-dopetrope.netlify.app/
 author: Curtis Timson
 ssg:
   - Hugo

@@ -1,7 +1,7 @@
 ---
 title: Minimal Bootstrap
 github: https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme
-demo: https://minimal-bootstrap-hugo-theme.netlify.com/
+demo: https://minimal-bootstrap-hugo-theme.netlify.app/
 author: Zachary Betz
 ssg:
   - Hugo

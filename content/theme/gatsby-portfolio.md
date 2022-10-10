@@ -1,7 +1,7 @@
 ---
 title: Gatsby Portfolio
 github: https://github.com/datocms/gatsby-portfolio
-demo: https://cranky-edison-12166d.netlify.com
+demo: https://cranky-edison-12166d.netlify.app
 author: DatoCMS
 ssg:
   - Gatsby

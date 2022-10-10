@@ -1,7 +1,7 @@
 ---
 title: Jamstack Hackathon Starter
 github: https://github.com/sw-yx/jamstack-hackathon-starter
-demo: https://jamstack-hackathon-starter.netlify.com/
+demo: https://jamstack-hackathon-starter.netlify.app/
 author: swyx
 ssg:
   - Gatsby

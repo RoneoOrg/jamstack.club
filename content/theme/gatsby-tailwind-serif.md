@@ -1,7 +1,7 @@
 ---
 title: Gatsby Tailwind Serif
 github: https://github.com/windedge/gatsby-tailwind-serif
-demo: https://gatsby-tailwind-serif.netlify.com/
+demo: https://gatsby-tailwind-serif.netlify.app/
 author: windedge
 ssg:
   - Gatsby

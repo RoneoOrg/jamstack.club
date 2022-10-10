@@ -1,7 +1,7 @@
 ---
 title: Yellowcake
 github: https://github.com/thriveweb/yellowcake
-demo: https://yellowcake.netlify.com/
+demo: https://yellowcake.netlify.app/
 author: THRIVE
 ssg:
   - Gatsby

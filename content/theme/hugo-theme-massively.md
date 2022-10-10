@@ -1,7 +1,7 @@
 ---
 title: Hugo Massively
 github: https://github.com/curtiscde/hugo-theme-massively
-demo: https://hugo-theme-massively.netlify.com/
+demo: https://hugo-theme-massively.netlify.app/
 author: Curtis Timson
 ssg:
   - Hugo

@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Docz
 github: https://github.com/RobinCsl/gatsby-starter-docz
-demo: https://gatsby-starter-docz.netlify.com/
+demo: https://gatsby-starter-docz.netlify.app/
 author: Robin Cussol
 ssg:
   - Gatsby

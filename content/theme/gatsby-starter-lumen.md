@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Lumen
 github: https://github.com/alxshelepenok/gatsby-starter-lumen
-demo: https://lumen.netlify.com/
+demo: https://lumen.netlify.app/
 author: Alexander Shelepenok
 ssg:
   - Gatsby

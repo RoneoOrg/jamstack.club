@@ -1,7 +1,7 @@
 ---
 title: Blogger
 github: https://github.com/aslammultidots/blogger
-demo: https://gatsby-blogger.netlify.com/
+demo: https://gatsby-blogger.netlify.app/
 author: Aslam Multani
 ssg:
   - Gatsby
