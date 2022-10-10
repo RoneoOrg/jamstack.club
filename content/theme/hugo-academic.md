@@ -1,8 +1,8 @@
 ---
 title: Academic
-github: https://github.com/gcushen/hugo-academic
+github: https://github.com/wowchemy/wowchemy-hugo-themes
 demo: https://academic-demo.netlify.com/
-author: gcushen
+author: Wowchemy
 ssg:
   - Hugo
 cms:
