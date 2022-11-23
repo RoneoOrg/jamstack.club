@@ -36,28 +36,26 @@ description: An Hugo theme for tech video blogger with 4 single post layout and 
 
 ---
 
-# Here is the main title: be imaginative (or just descriptive!)
-
-Arberia Theme for Hugo is a bootstrap theme for tech video blogger, fully responsive and optimized
+## Arberia Theme for Hugo is a bootstrap theme for tech video blogger, fully responsive and optimized
 
 ## Features
 
-- **Responsive layout**
-- **3 Single post view:**
-  - **Post view with sidebar**
-  - **Post view without sidebar**
-  - **Post view with cover image**
-  - **Video post view**
-- **2 List post view:**
-  - **List posts**
-  - **Grid posts**
-- **Landing page**
-- **List Cathegory/Tag view**
-- **Icon colored submenu**
-- **Table of Contents**
-- **Search** supported by [Flexbox.js](flexbox.js)
-- **[Google Analytics](https://analytics.google.com/analytics)** supported
-- **[Disqus](https://disqus.com)** comment system
+- Responsive layout
+- 3 Single post view:
+  - Post view with sidebar
+  - Post view without sidebar
+  - Post view with cover image
+  - Video post view
+- 2 List post view:
+  - List posts
+  - Grid posts
+- Landing page
+- List Cathegory/Tag view
+- Icon colored submenu
+- Table of Contents
+- Search supported by [Flexbox.js](flexbox.js)
+- [Google Analytics](https://analytics.google.com/analytics) supported
+- [Disqus](https://disqus.com) comment system
 - Social-Media Share buttons on posts
 - Multilingual support. (not yet implemented!)
 - Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default (No webpack, nodejs and other dependencies are required to edit the theme.
