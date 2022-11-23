@@ -1,13 +1,13 @@
 node_modules/
 .DS_Store
-public
 .idea
 .theme
 .vscode
 .hugo_build.lock
-resources/
 git-subtree/
 jamstack.club+statichunt.code-workspace
 
 # Local Netlify folder
 .netlify
+
+public
