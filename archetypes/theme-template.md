@@ -1,9 +1,4 @@
 ---
-
-# To submit a new theme, just edit this file and delete inappropriate suggestions.
-# Note that the screenshot and the Github Stars are automatically generated.
-
-# Enter the theme name here. No need to mention the SSG at this point.
 title: "Arberia Theme for Hugo"
 # This repo URL will be used to generate Github stats (Stars, Forks, Last Update)
 github: https://github.com/antedoro/arberia
@@ -16,10 +11,7 @@ author: V. Antedoro
 author_link: https://antedoro.it
 
  # Enter the date you submitted the theme in the format YYYY-MM-DD.
-date: 2021-10-31
-
-# Please delete this line to get this file considered during the next build.
-disabled: true
+date: 2022-10-31
 
 # At least one SSG is required. Delete the inappropriate lines.
 ssg:
