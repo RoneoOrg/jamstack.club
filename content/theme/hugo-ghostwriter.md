@@ -1,7 +1,7 @@
 ---
 title: Ghostwriter
 github: https://github.com/jbub/ghostwriter
-demo: https://themes.gohugo.io/theme/ghostwriter/
+demo: https://jbub.github.io/ghostwriter/
 author: Juraj Bubniak
 ssg:
   - Hugo
@@ -10,6 +10,4 @@ cms:
 date: 2015-04-26T09:57:24.000Z
 description: A port of ghostwriter theme to Hugo.
 stale: false
-disabled: true
-disabled_reason: demo url not found
 ---
