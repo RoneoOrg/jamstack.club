@@ -12,7 +12,7 @@ css:
   - Bootstrap 
 archetype:
   - Blog
-description: This is an amazing theme, made for blogger & built with bootstrap !
+description: Kembang is a Personal Hugo blog theme focused on high speed. Geeky is fully responsive, and powered by Bootstrap v5.
 ---
 
 ## Features
