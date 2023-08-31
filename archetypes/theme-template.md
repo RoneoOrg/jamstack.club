@@ -1,103 +1,57 @@
 ---
+title: Lotus Docs
+github: https://github.com/colinwilson/lotusdocs
+demo: https://lotusdocs.dev
+author: Colin Wilson
+author_link: https://colinwilson.uk
+date: 2023-08-31
 
-# To submit a new theme, just edit this file and delete inappropriate suggestions.
-# Note that the screenshot and the Github Stars are automatically generated.
-
-# Enter the theme name here. No need to mention the SSG at this point.
-title: Your Theme Name
-# This repo URL will be used to generate Github stats (Stars, Forks, Last Update)
-github: https://github.com/RoneoOrg/markdown
-# Make sure this links to a dedicated demo, and not a personal/business site. The demo url must use httpS.
-demo: https://roneo.org/markdown
-
-# The name or nickname of the theme's author.
-author: Sullivan
-# The personal site of the author, or a Github/Gitlab/Twitter link, for a proper acknowledgement. Delete this line if none is available.
-author_link: https://sullivan.com
-
- # Enter the date you submitted the theme in the format YYYY-MM-DD.
-date: 2021-10-20
-
-# Please delete this line to get this file considered during the next build.
-disabled: true
-
-# At least one SSG is required. Delete the inappropriate lines.
 ssg:
-  - Eleventy
-  - Gatsby
-  - Gridsome
-  - Hexo
   - Hugo
-  - Jekyll
-  - Next
-  - Nuxt
-  - Statiq
-  - Unibit
-  - Vuepress
 
-# At least one cms is required. If your theme uses no CMS, please leave a line with "No CMS"
 cms:
   - No CMS
-  - Contentful
-  - DatoCMS
-  - Forestry
-  - Ghost
-  - Kontent
-  - NetlifyCMS
-  - Airtable
-  - Cosmic
-  - GraphCMS
-  - Prismic
-  - Sanity
-  - Storyblok
-  - Wordpress
 
-# Naming the CSS framework is optional but welcome. Delete all lines if required.
 css:
   - Bootstrap
-  - Bulma
-  - PostCSS
   - SCSS
-  - Tailwind
-  - Stylus
 
-# Describe the archetype (the appearance) of the theme. Optional but warmly recommended. Delete the inappropriate lines.
 archetype:
-  - Blog
   - Documentation
-  - Ecommerce
-  - Gallery
   - Landing Page
-  - Multi Purpose
-  - Portfolio
-  - Resume
 
-# Describe the theme in a sentence
-description: This is an amazing theme and this is a small description about it!
-
+description: Lotus Docs is a free, lightweight, modern documentation theme for Hugo.
 ---
 
-# Here is the main title: be imaginative (or just descriptive!)
+# What is Lotus Docs?
 
-Now you can describe the theme as precisely as you want.  
-You can use every possibilities offered by Markdown. See https://roneo.org/markdown for an overview.
-
-Lorem ipsum: Ullamco mollit veniam ut et nostrud magna sunt. Esse nostrud exercitation enim minim aute. Ipsum ullamco amet incididunt ea. Irure reprehenderit nostrud fugiat labore labore velit Lorem culpa tempor cillum.
-
-Aliqua laborum consequat occaecat incididunt do laborum amet do eiusmod. Elit eu pariatur veniam aliquip ut fugiat culpa mollit voluptate ex reprehenderit labore nisi.
-
-Ad exercitation adipisicing adipisicing ullamco Lorem nisi esse.
+A lightweight, modern documentation theme for Hugo. Easily customised for building fast, secure, and SEO-friendly documentation sites.
 
 ## Features
 
-* First feature
-* Second
-* Third feature
+* [x] Modern documentation layout
+* [x] Responsive design / Mobile support
+* [x] Fast, Accessible and SEO-Friendly (4 x 💯 scores on [Google Lighthouse](https://pagespeed.web.dev/)!)
+* [x] Secure by default
+* [x] Built on Bootstrap 5
+* [x] Deploy on [GitHub Pages](https://pages.github.com/), [GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/), [Vercel](https://vercel.com/), [Netlify](https://netlify.com), or [Cloudflare Pages](https://pages.cloudflare.com/)
+* [x] Multilingual support (i18n)
+* [x] Powerful Syntax Highlighting via [Prism.js](https://prismjs.com/)
+* [x] Dark Mode
+* [x] Custom fonts (via [Google Fonts](https://fonts.google.com/))
+* [x] Custom icons (via [Google Material Symbols](https://fonts.google.com/icons?icon.style=Outlined&icon.set=Material+Symbols))
+* [x] Landing page template included
+* [x] Documentation sidebar menu (with optional icons)
+* [x] Table of Contents menu on each page (optional)
+* [x] Customisable theme accent colour
+* [x] Social media links (Github, Twitter, Instagram etc)
+* [x] Static Search plugin option (powered by [FlexSearch](https://github.com/nextapps-de/flexsearch), enabled by default)
+* [x] Support for [DocSearch](https://docsearch.algolia.com/)
+* [x] Custom shortcodes (PrismJS, Alerts, Tabs, Tables)
+* [x] Analytics ([Google Analytics v4](https://analytics.google.com/analytics/web/), [Plausible Analytics](https://plausible.io/))
+* [x] Cross-browser testing via [BrowserStack](https://browserstack.com)
+* [x] Feedback widget
+* [x] Math equations powered by [KaTeX](https://katex.org/)
+* [ ] [Open Graph](https://ogp.me/)
+* [ ] [Mermaid](https://mermaid.js.org/) Support
 
-Dolor minim excepteur ullamco incididunt officia. Occaecat labore do esse id officia ea reprehenderit adipisicing. Aute ipsum velit proident eiusmod officia sint esse ut nulla pariatur.
-
-Velit aliquip quis eu id consequat laborum magna et sint anim dolore magna labore. Incididunt excepteur occaecat amet proident id nostrud amet nisi eu deserunt excepteur excepteur enim. Aute aliqua sint anim irure deserunt sint dolore reprehenderit.
-
-Key takeaways: this theme is recommended for ..
-
-# Please delete the comments when you're done, then click on "Propose changes" right below and voilà!
