@@ -1,103 +1,67 @@
 ---
-
-# To submit a new theme, just edit this file and delete inappropriate suggestions.
-# Note that the screenshot and the Github Stars are automatically generated.
-
-# Enter the theme name here. No need to mention the SSG at this point.
-title: Your Theme Name
-# This repo URL will be used to generate Github stats (Stars, Forks, Last Update)
-github: https://github.com/RoneoOrg/markdown
-# Make sure this links to a dedicated demo, and not a personal/business site. The demo url must use httpS.
-demo: https://roneo.org/markdown
-
-# The name or nickname of the theme's author.
-author: Sullivan
-# The personal site of the author, or a Github/Gitlab/Twitter link, for a proper acknowledgement. Delete this line if none is available.
-author_link: https://sullivan.com
-
- # Enter the date you submitted the theme in the format YYYY-MM-DD.
-date: 2021-10-20
-
-# Please delete this line to get this file considered during the next build.
-disabled: true
-
-# At least one SSG is required. Delete the inappropriate lines.
+title: Perplex
+github: https://github.com/bowman2001/perplex
+demo: https://perplex.desider.at
+author: Georg Makowski
+author_link: https://perplex.desider.at/authors/georg-makowski/
+date: 2023-11-29
 ssg:
-  - Eleventy
-  - Gatsby
-  - Gridsome
-  - Hexo
   - Hugo
-  - Jekyll
-  - Next
-  - Nuxt
-  - Statiq
-  - Unibit
-  - Vuepress
-
-# At least one cms is required. If your theme uses no CMS, please leave a line with "No CMS"
 cms:
   - No CMS
-  - Contentful
-  - DatoCMS
-  - Forestry
-  - Ghost
-  - Kontent
-  - NetlifyCMS
-  - Airtable
-  - Cosmic
-  - GraphCMS
-  - Prismic
-  - Sanity
-  - Storyblok
-  - Wordpress
-
-# Naming the CSS framework is optional but welcome. Delete all lines if required.
-css:
-  - Bootstrap
-  - Bulma
-  - PostCSS
-  - SCSS
-  - Tailwind
-  - Stylus
-
-# Describe the archetype (the appearance) of the theme. Optional but warmly recommended. Delete the inappropriate lines.
 archetype:
   - Blog
   - Documentation
-  - Ecommerce
-  - Gallery
-  - Landing Page
   - Multi Purpose
-  - Portfolio
-  - Resume
-
-# Describe the theme in a sentence
-description: This is an amazing theme and this is a small description about it!
-
+description: Advanced Markdown documentation and multi-purpose theme with a fluid-responsive typographic layout.
 ---
 
-# Here is the main title: be imaginative (or just descriptive!)
+# Perplex
 
-Now you can describe the theme as precisely as you want.  
-You can use every possibilities offered by Markdown. See https://roneo.org/markdown for an overview.
+This documentation and multi-purpose theme focuses on good legibility by providing a detailed rich layout. It’s highly optimized for speed by self-hosting resources. No other software is required to start a new project.
 
-Lorem ipsum: Ullamco mollit veniam ut et nostrud magna sunt. Esse nostrud exercitation enim minim aute. Ipsum ullamco amet incididunt ea. Irure reprehenderit nostrud fugiat labore labore velit Lorem culpa tempor cillum.
-
-Aliqua laborum consequat occaecat incididunt do laborum amet do eiusmod. Elit eu pariatur veniam aliquip ut fugiat culpa mollit voluptate ex reprehenderit labore nisi.
-
-Ad exercitation adipisicing adipisicing ullamco Lorem nisi esse.
+[**The documentation**][doc] is also the **demonstration site**. If you want to get started right away visit the [workflow introduction][intro].
 
 ## Features
 
-* First feature
-* Second
-* Third feature
+All kinds of pages are rendered into the same coherent **fluid-responsive layout grid**. The detailed typographic design is based on classic principles and techniques. The theme can generate
 
-Dolor minim excepteur ullamco incididunt officia. Occaecat labore do esse id officia ea reprehenderit adipisicing. Aute ipsum velit proident eiusmod officia sint esse ut nulla pariatur.
+- large documentation with up to three menu levels
 
-Velit aliquip quis eu id consequat laborum magna et sint anim dolore magna labore. Incididunt excepteur occaecat amet proident id nostrud amet nisi eu deserunt excepteur excepteur enim. Aute aliqua sint anim irure deserunt sint dolore reprehenderit.
+- blog postings
 
-Key takeaways: this theme is recommended for ..
+- a news stream
 
-# Please delete the comments when you're done, then click on "Propose changes" right below and voilà!
+- author pages
+
+- card previews
+
+The default styling of Markdown content is **optimized for good legibility** and there are many options to further enhance the layout. **Light & dark** modes follow the setting of the OS environment automatically.
+
+**All navigational elements** to sift through the content as fast as possible are generated from data in the frontmatter:
+
+  - Site menu at the top
+
+  - Sidebar menu for documentation
+
+  - Taxonomies
+
+  - Page-to-page links
+
+  - Breadcrumbs
+
+Google’s [Material Symbols][ms] and [Simple Icons][si] for brands can be included by their identifiers. Material Symbols automatically show in all navigational elements of the documentation. All icon sets can also be used as Markdown content (using shortcodes).
+
+The **appearance of images** can be controlled to a large extent. The theme handles their preprocessing and the generation of all the needed variants. They are delivered smoothly with [Lazysizes][ls] and without layout shifts.
+
+To offer a **full-text search** the theme is prepared to generate and self-host indices with the fast library [Pagefind][pf] (the additional installation of its open-source node package is required).
+
+Sites built with this theme are **very fast and cost-effective**. Image sets are highly optimized to minimize the needed bandwidth (and loaded lazily), fonts are split into small packages, and icons are embedded inline.
+
+[doc]: https://perplex.desider.at/doc
+[intro]: https://perplex.desider.at/doc/intro/workflow/
+[ms]: https://fonts.google.com/icons 
+[si]: https://simpleicons.org
+[ls]: https://github.com/afarkas/lazysizes
+[pf]: https://pagefind.app
+
